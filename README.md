@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @alexandrehorst
 - 👀 I’m interested in to become a full- stack programmer.
-- 🌱 I’m currently learning Python.
+- 🌱 I’m a Python programmer.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: alexandrehorst@gmail.com
 
