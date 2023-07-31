@@ -228,11 +228,6 @@ def atualizar_cotacao():
         mensagem_arquivo_atualizado["text"] = "Arquivo de moedas atualizado com sucesso."
 
 
-# Função que encerra o programa após o usuário clicar no botão fechar
-def fechar_programa():
-    janela.destroy()  # o método destroy() fecha a janela
-
-
 # inicia janela
 janela = tk.Tk()
 
@@ -241,7 +236,7 @@ moeda_var = StringVar()
 
 # Cria uma lista suspensa (janela é onde irá aparecer a lista suspensa e values é a lista de valores)
 moeda = ttk.Combobox(janela, textvariable=moeda_var)
-moeda.grid(row=1, column=2, sticky="NSEW")
+moeda.grid(row=1, column=2, padx=10, pady=10, sticky="NSEW")
 
 # Insere título da janela
 janela.title("Sistema de Cotação de Moedas")
@@ -254,24 +249,24 @@ janela.rowconfigure([0, 12], weight=1)
 janela.columnconfigure(2, weight=1)
 
 # Cotação de 1 moeda específica
-titulo1 = tk.Label(text="Cotação de 1 moeda específica", fg='black', bg='#b0e0e6')
-titulo1.grid(row=0, column=0, pady=2, columnspan=3, sticky="NSEW")
+titulo1 = tk.Label(text="Cotação de 1 moeda específica", fg='black', bg='#b0e0e6', borderwidth=2, relief='solid')
+titulo1.grid(row=0, column=0, padx=10, pady=10, columnspan=3, sticky="NSEW")
 
 # Seleciona moeda
 mensagem2 = tk.Label(text="Selecione a moeda que deseja consultar:", fg='black', bg='#b0e0e6')
-mensagem2.grid(row=1, column=0, pady=2, columnspan=2, sticky="NSEW")
+mensagem2.grid(row=1, column=0, padx=10, pady=10, columnspan=2, sticky="NSEW")
 
 # Insere data
 mensagem3 = tk.Label(text="Selecione o dia (DD/MM/AA) que deseja pegar a cotação:", fg='black', bg='#b0e0e6')
-mensagem3.grid(row=2, column=0, pady=2, columnspan=2, sticky="NSEW")
+mensagem3.grid(row=2, column=0, padx=10, pady=10, columnspan=2, sticky="NSEW")
 
 # Insere uma caixa de texto para que o usuário insira a data
 data_cotacao = tk.Entry(fg='black', bg='white')
-data_cotacao.grid(row=2, column=2, pady=2, sticky="NSEW")
+data_cotacao.grid(row=2, column=2, padx=10, pady=10, sticky="NSEW")
 
 # Insere uma caixa de text para amsg de cotação
 mensagem_cotacao = tk.Label(text="", fg='black', bg='#b0e0e6')
-mensagem_cotacao.grid(row=3, column=0, columnspan=2, sticky="NSEW")  # Adiciona o label à janela
+mensagem_cotacao.grid(row=3, column=0, columnspan=2, padx=10, pady=10, sticky="NSEW")  # Adiciona o label à janela
 
 # Cria um dicionário com os códigos do awesome API
 cod_moedas = {'AED': 'Dirham dos Emirados', 'AFN': 'Afghani do Afeganistão', 'ALL': 'Lek Albanês',
@@ -329,25 +324,25 @@ moeda_var.trace('w', filter_combobox)
 
 # Botão de busca da cotação
 botao_buscar_cotacao = tk.Button(text="Pegar Cotação", fg='black', bg='#b0e0e6', command=buscar_cotacao)
-botao_buscar_cotacao.grid(row=3, column=2)  # Adiciona o botão na janela
+botao_buscar_cotacao.grid(row=3, column=2, padx=10, pady=10,)  # Adiciona o botão na janela
 
 # Cotação de Múltiplas Moedas
-titulo2 = tk.Label(text="Cotação de Múltiplas Moedas", fg='black', bg='#b0e0e6')
-titulo2.grid(row=5, column=0, columnspan=3, sticky="NSEW")
+titulo2 = tk.Label(text="Cotação de Múltiplas Moedas", fg='black', bg='#b0e0e6', borderwidth=2, relief='solid')
+titulo2.grid(row=5, column=0, columnspan=3, padx=10, pady=10, sticky="NSEW")
 
 # Seleciona arquivo
 mensagem_selecionar_arquivo = tk.Label(text="Selecione um arquivo em Excel com as moedas na coluna A:", fg='black',
                                        bg='#b0e0e6')
-mensagem_selecionar_arquivo.grid(row=6, column=0, columnspan=2, sticky="NSEW")
+mensagem_selecionar_arquivo.grid(row=6, column=0, columnspan=2, padx=10, pady=10, sticky="NSEW")
 
 # Botão para selecionar o arquivo
 botao_selecionar_arquivo = tk.Button(text="Clique aqui para selecionar", fg='black', bg='#b0e0e6',
                                      command=selecionar_arquivo)
-botao_selecionar_arquivo.grid(row=6, column=2)  # Adiciona o botão na janela
+botao_selecionar_arquivo.grid(row=6, column=2, padx=10, pady=10)  # Adiciona o botão na janela
 
 # Caminho do arquivo
-mensagem_caminho_arquivo_entrada = tk.Label(text="Nenhum arquivo selecionado", fg='black', bg='#b0e0e6')
-mensagem_caminho_arquivo_entrada.grid(row=7, column=0, columnspan=3, sticky="NSEW")
+mensagem_caminho_arquivo_entrada = tk.Label(text="Nenhum arquivo selecionado", fg='black', bg='#b0e0e6', anchor='e')
+mensagem_caminho_arquivo_entrada.grid(row=7, column=0, columnspan=3, padx=10, pady=10, sticky="NSEW")
 
 # Seleciona datas inicial e final
 mensagem_data_inicial = tk.Label(text="Data Inicial (DD/MM/AA):", fg='black', bg='#b0e0e6')
@@ -357,22 +352,22 @@ data_inicial = tk.Entry(fg='black', bg='white')  # Caixa txt data inicial
 data_inicial.grid(row=8, column=2)
 
 mensagem_data_final = tk.Label(text="Data Final (DD/MM/AA):", fg='black', bg='#b0e0e6')
-mensagem_data_final.grid(row=9, column=0, sticky="NSEW")
+mensagem_data_final.grid(row=9, column=0, padx=10, pady=10, sticky="NSEW")
 
 data_final = tk.Entry(fg='black', bg='white')  # Caixa txt data final
-data_final.grid(row=9, column=2)
+data_final.grid(row=9, column=2, padx=10, pady=10)
 
 # Botão para atualizar cotações
 botao_atualizar_cotacao = tk.Button(text="Atualizar Cotações", fg='black', bg='#b0e0e6', command=atualizar_cotacao)
-botao_atualizar_cotacao.grid(row=11, column=0)  # Adiciona o botão na janela
+botao_atualizar_cotacao.grid(row=11, column=0, padx=10, pady=10)  # Adiciona o botão na janela
 
 # Msg de arquivo atualizado
 mensagem_arquivo_atualizado = tk.Label(text="", fg='black', bg='#b0e0e6')
-mensagem_arquivo_atualizado.grid(row=11, column=1, columnspan=2, sticky="NSEW")
+mensagem_arquivo_atualizado.grid(row=11, column=1, padx=10, pady=10, columnspan=2, sticky="NSEW")
 
 # Botão para fechar programa
-botao_fechar_programa = tk.Button(text="Fechar", fg='black', bg='#b0e0e6', command=fechar_programa)
-botao_fechar_programa.grid(row=12, column=2)  # Adiciona o botão na janela
+botao_fechar_programa = tk.Button(text="Fechar", fg='black', bg='#b0e0e6', command=janela.quit)
+botao_fechar_programa.grid(row=12, column=2, padx=10, pady=10)  # Adiciona o botão na janela
 
 # Roda o código continuamente permitindo que a janela fique continuamente na tela
 janela.mainloop()
