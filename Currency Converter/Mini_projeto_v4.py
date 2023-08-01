@@ -162,7 +162,7 @@ def awesome_api(cod_moeda, di, df):
                     data_transf = transforma_timestamp(cotacao['timestamp'])
                     for i, dia in enumerate(periodo):
                         if dia == data_transf:
-                            cotacao_moeda[i] = cotacao['bid']
+                            cotacao_moeda[i] = float(cotacao['bid'])
                 print(cotacao_moeda)
                 # Caso a API não retorne uma cotação, é feito um request específico para os dias faltantes
                 for i, cotacao in enumerate(cotacao_moeda):
@@ -171,7 +171,7 @@ def awesome_api(cod_moeda, di, df):
                         url_diario = f"https://economia.awesomeapi.com.br/json/daily/" \
                                      f"{cod}-BRL?start_date={dia}&end_date={dia}"
                         try:  # Caso a cotação não seja pega no request do período
-                            cotacao_moeda[i] = realizar_request(url_diario)[0]['bid']
+                            cotacao_moeda[i] = float(realizar_request(url_diario)[0]['bid'])
                         except IndexError:  # Caso o dia pleiteado seja final de semana
                             cotacao_moeda[i] = cotacao_moeda[i - 1]
                 mult_cotacoes.append(cotacao_moeda)
@@ -206,25 +206,24 @@ def buscar_cotacao():
 
 
 lst_moedas = []  # Será uma variável global para conectar a fç selecionar_arquivo() e atualizar_cotacao()
-diretorio_entrada = ''
 
 
 # Função que abre uma janela para selecionar o arquivo desejado
 def selecionar_arquivo():
     global lst_moedas
-    global diretorio_entrada
-    caminho_arquivo = askopenfilename(title="Selecione um arquivo em Excel para abrir")
-    diretorio_entrada = os.path.dirname(caminho_arquivo)
-    mensagem_caminho_arquivo_entrada['text'] = caminho_arquivo  # Atualiza o caminho do arquivo
-    df = pd.read_excel(caminho_arquivo)
-    lst_moedas = list(df['Moedas'])
-    return lst_moedas
+    try:
+        caminho_arquivo = askopenfilename(title="Selecione um arquivo em Excel para abrir")
+        df = pd.read_excel(caminho_arquivo)
+        mensagem_caminho_arquivo_entrada['text'] = caminho_arquivo  # Atualiza o caminho do arquivo
+        lst_moedas = list(df.iloc[:, 0])
+        return lst_moedas
+    except:
+        mensagem_caminho_arquivo_entrada['text'] = 'Arquivo inválido!'
 
 
 # Função que atualiza as cotações para as moedas selecionadas
 def atualizar_cotacao():
     global lst_moedas
-    global diretorio_entrada
     print(lst_moedas)
     data_inicial_preenchida = data_inicial.get()
     data_final_preenchida = data_final.get()
@@ -232,8 +231,7 @@ def atualizar_cotacao():
         mult_cotacoes = awesome_api(lst_moedas, data_inicial_preenchida, data_final_preenchida)
         df = pd.DataFrame(mult_cotacoes)  # Cria um DataFrame para incluir as infos de cotação
         # Salva o DataFrame num arquivo do Excel
-        diretorio_saida = os.path.join(diretorio_entrada, f'mult_cotacoes{datetime.now().strftime("%d/%m/%y/%H/%M/%S").replace("/","")}.xlsx')
-        df.to_excel(diretorio_saida, index=False)
+        df.to_excel(f'mult_cotacoes{datetime.now().strftime("%d/%m/%y/%H/%M/%S").replace("/","")}.xlsx', index=False)
         mensagem_arquivo_atualizado["text"] = "Arquivo de moedas atualizado com sucesso."
 
 
