@@ -1,9 +1,8 @@
 <h1 align="center">:file_cabinet: Currency Converter README.md</h1>
 
 ## :memo: Descrição/ Description
-O Sistema de Cotação de Moedas converte vários moedas diferentes para Reais (R$) e possui 2 modos de operação: 
+O Sistema de Cotação de Moedas converte vários moedas diferentes para Reais (R$) e possui 2 modos de operação:
 1) Cotação específica para uma determinada moeda num determinado dia selecionados pelo usuário na GUI;
-
 2) Múltiplas cotações inseridas por meio de uma planilha de excel contendo os códigos das moedas na primeira coluna (Ex: USD, EUR, BTC etc). Após selecionar o arquivo, o usuário informa o período que deseja a cotação inserindo a data no formato dd/mm/yy (são admitidos outros formatos também). Para obter a cotação, o usuário clica no botão "Atualizar cotação" e um arquivo em excel com as informações será gerado no mesmo diretório do arquivo de entrada.
 
 A GUI foi desenvolvida utilizando o Tkinter e o programa realiza "requests" à API do awesome api para obter as cotações em reais (BRL). Além disso, utiliza-se o conceito de listas e o Pandas para manipular os dados e salvá-los em arquivos. Foi desenvolvido também uma lista suspensa com autocompletamento automático, assim, ao digitar algumas letras o programa já indica algumas opções de moedas a serem selecionadas.
