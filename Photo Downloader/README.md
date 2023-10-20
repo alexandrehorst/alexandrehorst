@@ -12,7 +12,7 @@ The platform where the photos are hosted only allows you to download one photo a
 Este código foi desenvolvido utilizando o Jupyter Notebook versão 6.5.4 e o Python versão 3.11.4. Além disso, utiliza as seguintes dependências:
 
 ## :books: Funcionalidades
-* <b>Funcionalidade 1</b>: Realiza o download automático de todas as fotos que se encontram no site.
+* Realiza o download automático de todas as fotos que se encontram no site.
  
 ## :wrench: Tecnologias utilizadas
 * Beautifulsoup module;
