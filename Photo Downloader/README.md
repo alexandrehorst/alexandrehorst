@@ -21,7 +21,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ```
 <linha de comando>
 ```
-
 ## :dart: Status do projeto
 O projeto está finalizado.
 
