@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Photo Downloader README.md</h1>
+<h1 align="center">:file_cabinet: PDF to Excel Converter README.md</h1>
 
 ## :memo: Descrição/ Description
 Em decorrência de uma necessidade fazer download das fotos escolares dos meus filhos escrevi esse código.
