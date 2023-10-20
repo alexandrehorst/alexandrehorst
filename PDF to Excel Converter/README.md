@@ -27,7 +27,62 @@ get the desired format. With the dataframes correctly configured, they are merge
 For reasons of confidentiality, neither PDF documents nor generated spreadsheets were included in this repository.
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o Jupyter Notebook versão 6.5.4 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências: módulo Selenium (selenium==4.13.0), Webdriver (ChromeDriver==116.0.5845.96), urllib.request (3.11) e beautifulsoup4 (bs4==4.12.2). O código depende também de um arquivo .py auxiliar contendo as credenciais do usuário para acesso ao site.
+Este código foi desenvolvido utilizando o Jupyter Notebook versão 6.5.4 e o Python versão 3.11.4. 
+Além disso, o código possui as seguintes dependências: 
+absl-py==1.4.0
+astunparse==1.6.3 
+cachetools==5.3.1 
+certifi==2023.7.22
+charset-normalizer==3.2.0
+distro==1.8.0
+et-xmlfile==1.1.0
+flatbuffers==23.5.26
+gast==0.4.0
+google-auth==2.22.0
+google-auth-oauthlib==1.0.0
+google-pasta==0.2.0
+grpcio==1.57.0
+h5py==3.9.0
+idna==3.4
+importlib-metadata==6.8.0
+keras==2.13.1
+libclang==16.0.6
+llvmlite==0.40.1
+Markdown==3.4.4
+MarkupSafe==2.1.3
+numba==0.57.1
+numpy==1.24.2
+oauthlib==3.2.2
+openpyxl==3.1.2
+opt-einsum==3.3.0
+packaging==23.1
+pandas==2.1.0
+Pillow==10.0.0
+protobuf==4.24.2
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+python-dateutil==2.8.2
+pytz==2023.3
+requests==2.31.0
+requests-oauthlib==1.3.1
+rsa==4.9
+six==1.16.0
+tabula-py==2.6.0
+tensorboard==2.13.0
+tensorboard-data-server==0.7.1
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.3.0
+typing_extensions==4.5.0
+tzdata==2023.3
+urllib3==1.26.16
+Werkzeug==2.3.7
+wrapt==1.15.0
+zipp==3.16.2
+
+módulo Selenium (selenium==4.13.0), Webdriver (ChromeDriver==116.0.5845.96), urllib.request (3.11) e beautifulsoup4 (bs4==4.12.2). O código depende também de um arquivo .py auxiliar contendo as credenciais do usuário para acesso ao site.
 
 O arquivo do `webdriver.exe` deve ser colocado em um diretório que esteja no PATH do sistema operacional. Isso permitirá que o Python encontre o arquivo corretamente ao executar o código. Você pode colocar o `webdriver.exe` em um diretório como `C:\Windows` ou adicionar o diretório onde o arquivo está localizado ao PATH do sistema. Dessa forma, o Python conseguirá encontrá-lo durante a execução do código.
 
