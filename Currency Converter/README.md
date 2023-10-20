@@ -19,14 +19,20 @@ The GUI was developed using Tkinter and the program performs "requests" to an AP
 To get the currecys code you need to acess: https://economia.awesomeapi.com.br/xml/available
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o Jupyter Notebook versão 6.5.4 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências:
+Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13.
+
+This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
+
+Além disso, o código possui as seguintes dependências:
+
+Additionally, the code has the following dependencies:
 
 ![dependencies](https://github.com/alexandrehorst/alexandrehorst/assets/98498152/d6396e74-abdb-4f1a-bd55-4e77d445163d)
 
 
 ## :books: Funcionalidades
-* Realiza o download automático de todas as fotos que se encontram no site.
-* Automatically downloads all photos found on the website.
+* Busca a cotação de uma única moeda em relação ao Real (R$) para um dia específico ou retorna a cotação de diversas moedas (informadas por meio de uma planilha excel auxiliar) para um período específico.
+* Searches for the price of a single currency in relation to the Real (R$) for a specific day or returns the price of several currencies (informed through an auxiliary Excel spreadsheet) for a specific period.
  
 ## :wrench: Tecnologias utilizadas
 * Pandas;
