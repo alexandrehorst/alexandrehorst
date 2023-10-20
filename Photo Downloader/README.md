@@ -22,9 +22,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <linha de comando>
 ```
 
-## :handshake: Colaboradores
-
-
 ## :dart: Status do projeto
 O projeto está finalizado.
 
