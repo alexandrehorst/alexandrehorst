@@ -27,8 +27,11 @@ get the desired format. With the dataframes correctly configured, they are merge
 For reasons of confidentiality, neither PDF documents nor generated spreadsheets were included in this repository.
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o Jupyter Notebook versão 6.5.4 e o Python versão 3.11.4. 
+Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13. 
+This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
+
 Além disso, o código possui as seguintes dependências: 
+Additionally, the code has the following dependencies: 
 absl-py==1.4.0
 astunparse==1.6.3 
 cachetools==5.3.1 
@@ -75,6 +78,7 @@ tensorflow-estimator==2.13.0
 tensorflow-intel==2.13.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
+tkinter==8.6
 typing_extensions==4.5.0
 tzdata==2023.3
 urllib3==1.26.16
@@ -82,25 +86,18 @@ Werkzeug==2.3.7
 wrapt==1.15.0
 zipp==3.16.2
 
-módulo Selenium (selenium==4.13.0), Webdriver (ChromeDriver==116.0.5845.96), urllib.request (3.11) e beautifulsoup4 (bs4==4.12.2). O código depende também de um arquivo .py auxiliar contendo as credenciais do usuário para acesso ao site.
-
-O arquivo do `webdriver.exe` deve ser colocado em um diretório que esteja no PATH do sistema operacional. Isso permitirá que o Python encontre o arquivo corretamente ao executar o código. Você pode colocar o `webdriver.exe` em um diretório como `C:\Windows` ou adicionar o diretório onde o arquivo está localizado ao PATH do sistema. Dessa forma, o Python conseguirá encontrá-lo durante a execução do código.
-
-This code was developed using Jupyter Notebook version 6.5.4 and Python version 3.11.4. Additionally, the code has the following dependencies: Selenium module (selenium==4.13.0), Webdriver (ChromeDriver==116.0.5845.96), urllib.request (3.11) and beautifulsoup4 (bs4==4.12.2). The code also depends on an auxiliary credentials.py file containing the user's credentials to access the website.
-
-The `webdriver.exe` file must be placed in a directory that is in the operating system's PATH. This will allow Python to find the file correctly when executing the code. You can place `webdriver.exe` in a directory like `C:\Windows` or add the directory where the file is located to the system PATH. This way, Python will be able to find it while executing the code.
-
-## :books: Funcionalidades
-* Realiza o download automático de todas as fotos que se encontram no site.
-* Automatically downloads all photos found on the website.
+## :books: Funcionalidades/ Functionalities
+* Converte uma planilha com formato definido em PDF para uma planilha em excel. Além disso, realiza cálculos adicionais para controle de estoque.
+* Converts a spreadsheet with a defined format in PDF to an Excel spreadsheet. In addition, it performs additional calculations for inventory control.
  
 ## :wrench: Tecnologias utilizadas
-* Webscraping
+* Tkinter;
+* Tabula module
 
 ## :rocket: Rodando o projeto
-Para rodar o código, o usuário precisa ter login e senha no site, os quais não serão disponibilizados aqui.
+Esse código foi desenvolvido para uma planilha pré-definida, que por razões de sigilo não pode ser compartilhada aqui. Assim, não há garantias de que o código converterá 100% outros modelos de planilha no formato PDF.
 
-To run the code, the user must have credentias to acess the website.
+This code was developed for a pre-defined spreadsheet, which for confidentiality reasons cannot be shared here. Therefore, there are no guarantees that the code will 100% convert other spreadsheet templates to PDF format.
 
 ## :dart: Status do projeto
 O projeto está finalizado.
