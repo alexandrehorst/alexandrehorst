@@ -28,11 +28,13 @@ For reasons of confidentiality, neither PDF documents nor generated spreadsheets
 
 ## ⚓: Dependências/ Dependencies
 Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13. 
+
 This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
 
 Além disso, o código possui as seguintes dependências: 
 
 Additionally, the code has the following dependencies: 
+
 absl-py==1.4.0
 astunparse==1.6.3 
 cachetools==5.3.1 
