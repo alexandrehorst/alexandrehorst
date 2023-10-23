@@ -36,13 +36,29 @@ This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additi
 * Requests
 
 ## :rocket: Rodando o projeto
-Para rodar o código, o usuário precisa instala os seguintes módulos: requests, pandas, openpyxl, opencv e numpy, utilizando o comando: "pip install <module_name>".
+Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
+1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.11.4
+2) Ativar o ambiente virtual: conda activate <venv_name>
+3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.11.4)
+4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
+5) Instalar as dependências usando os comandos:
+   . pip install requests==2.31.0
+   . pip install pandas==2.1.1
+   . pip install openpyxl==3.1.2
+6) Executar o código: python "Mini_projeto_v4.py"
 
-Para rodar o código utilize o comando: "python Mini_projeto_v4.py"
+To run the code, you need the following (using the Anaconda prompt):
 
-To run the code, the user needs to install the following modules: requests, pandas, openpyxl, opencv and numpy, using the command: "pip install <module_name>".
+1. Create the virtual environment in a specific directory: `conda create -n <venv_name> python=3.11.4`
+2. Activate the virtual environment: `conda activate <venv_name>`
+3. Verify that everything is okay: `python --version` (you should see the message: Python 3.11.4)
+4. Using the prompt, navigate to the directory where the code files are located.
+5. Install the dependencies:
+   . pip install requests==2.31.0
+   . pip install pandas==2.1.1
+   . pip install openpyxl==3.1.2
+6. Run the code: 'python "Mini_projeto_v4.py"'
 
-To run the code use the command: "python Mini_projeto_v4.py"
 
 ## :dart: Status do projeto
 O projeto está finalizado.
