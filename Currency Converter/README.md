@@ -19,15 +19,9 @@ The GUI was developed using Tkinter and the program performs "requests" to an AP
 To get the currecys code you need to acess: https://economia.awesomeapi.com.br/xml/available
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13.
+Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências: requests==2.31.0, openpyxl==3.1.2 e pandas==2.1.1. 
 
-This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
-
-Além disso, o código possui as seguintes dependências:
-
-Additionally, the code has the following dependencies:
-
-![dependencies](https://github.com/alexandrehorst/alexandrehorst/assets/98498152/d6396e74-abdb-4f1a-bd55-4e77d445163d)
+This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additionally, the code has the following dependencies: requests==2.31.0, openpyxl==3.1.2 e pandas==2.1.1.
 
 
 ## :books: Funcionalidades
@@ -35,6 +29,7 @@ Additionally, the code has the following dependencies:
 * Searches for the price of a single currency in relation to the Real (R$) for a specific day or returns the price of several currencies (informed through an auxiliary Excel spreadsheet) for a specific period.
  
 ## :wrench: Tecnologias utilizadas
+* Python
 * Pandas;
 * REST API;
 * Tkinter;
