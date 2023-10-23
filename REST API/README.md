@@ -9,7 +9,7 @@ The API import data from the database (the excel file named "VENDAS - DEZ.xlsx")
 
 
 ## :books: Funcionalidades/ Functionalities
-* Realiza o download automático de todas as fotos que se encontram no site.
+* Disponibiliza uma API REST para consulta usando o comando requests.
 * Automatically downloads all photos found on the website.
  
 ## :wrench: Tecnologias utilizadas/ Tecnologies
@@ -20,7 +20,19 @@ The API import data from the database (the excel file named "VENDAS - DEZ.xlsx")
 * Flask
 
 ## :rocket: Rodando o projeto/ How to run the code
-Para rodar o código, o usuário precisa ter login e senha no site, os quais não serão disponibilizados aqui.
+Na API em questão, utiliza-se como base de dados uma planilha de venda de diversos produtos. Poderão ser feitas consultas para se obter o valor total do faturamento das vendas, o valor da venda de cada produto o valor faturado com a venda de cada produto.
+
+Para rodar o código, é importante que a planilha (aruqivo excel) esteja no mesmo diretório do arquivo REST API.py.
+
+Para rodar a API, basta usar o comando: python "REST API.py". Esse comando rodará a API localmente no endereço (http://127.0.0.1:5000), a qual poderá receber consultas utilizando qualquer IDE (PyCharm, Jupyter, Sypder, etc). Para isso será preciso executar os seguintes comandos:
+1) Consulta o valor do faturamento total
+import requests
+r=requests.get('http://127.0.0.1:5000/') ou requests.get("http address")
+print(r.json())
+Response: {"faturamento": value}, onde "faturamento" representa o faturamento total com vendas.
+
+2) 
+ 
 
 To run the code, the user must have credentias to acess the website.
 
