@@ -42,10 +42,14 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.11.4)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
 5) Instalar as dependências usando os comandos:
+   
    . pip install requests==2.31.0
+
    . pip install pandas==2.1.1
+
    . pip install openpyxl==3.1.2
-6) Executar o código: python "Mini_projeto_v4.py"
+
+7) Executar o código: python "Mini_projeto_v4.py"
 
 To run the code, you need the following (using the Anaconda prompt):
 
@@ -54,10 +58,14 @@ To run the code, you need the following (using the Anaconda prompt):
 3. Verify that everything is okay: `python --version` (you should see the message: Python 3.11.4)
 4. Using the prompt, navigate to the directory where the code files are located.
 5. Install the dependencies:
+   
    . pip install requests==2.31.0
+   
    . pip install pandas==2.1.1
+   
    . pip install openpyxl==3.1.2
-6. Run the code: 'python "Mini_projeto_v4.py"'
+
+7. Run the code: 'python "Mini_projeto_v4.py"'
 
 
 ## :dart: Status do projeto
