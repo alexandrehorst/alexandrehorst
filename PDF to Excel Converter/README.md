@@ -49,8 +49,11 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
 5) Instalar as dependências usando os comandos:
+   
    . pip install tabula-py==2.6.0
+   
    . pip install pillow==10.0.0
+   
    . pip install openpyxl==3.1.2
 6) Executar o código: python "main.py"
 
@@ -62,7 +65,15 @@ To run the code, you need the following (using the Anaconda prompt):
 2. Activate the virtual environment: `conda activate <venv_name>`
 3. Verify that everything is okay: `python --version` (you should see the message: Python 3.9.13)
 4. Using the prompt, navigate to the directory where the code files are located.
-5. Run the code: `python "main.py"`
+5. Install the dependencies:
+   
+   . pip install tabula-py==2.6.0
+   
+   . pip install pillow==10.0.0
+   
+   . pip install openpyxl==3.1.2
+    
+6. Run the code: `python "main.py"`
    
 
 ## :dart: Status do projeto
