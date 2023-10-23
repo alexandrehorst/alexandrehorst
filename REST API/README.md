@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Photo Downloader README.md</h1>
+<h1 align="center">:file_cabinet: REST API Example README.md</h1>
 
 ## :memo: Descrição/ Description
 Este é um projeto simples de API REST cujo objetivo é fornecer a receita de vendas de alguns produtos quando o usuário faz uma solicitação (GET) a ela. A API foi desenvolvida usando o Flask.
