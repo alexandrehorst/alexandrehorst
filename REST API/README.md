@@ -15,7 +15,8 @@ The API import data from the database (the excel file named "VENDAS - DEZ.xlsx")
 ## :wrench: Tecnologias utilizadas/ Tecnologies
 * Python;
 * REST API;
-* JSON; e
+* JSON;
+* Requests; e
 * Flask
 
 ## :rocket: Rodando o projeto/ How to run the code
