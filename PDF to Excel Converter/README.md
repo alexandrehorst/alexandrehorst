@@ -50,7 +50,11 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 2) Ativar o ambiente virtual: conda activate <venv_name>
 3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
-5) Executar o código: python "main.py"
+5) Instalar as dependências usando os comandos:
+   . pip install tabula-py==2.6.0
+   . pip install pillow==10.0.0
+   . pip install openpyxl==3.1.2
+6) Executar o código: python "main.py"
 
 This code was developed for a pre-defined spreadsheet, which for confidentiality reasons cannot be shared here. Therefore, there are no guarantees that the code will 100% convert other spreadsheet templates to PDF format.
 
