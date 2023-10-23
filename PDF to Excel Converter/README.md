@@ -31,63 +31,9 @@ Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3
 
 This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
 
-Além disso, o código possui as seguintes dependências: 
+Além disso, o código possui as seguintes dependências: openpyxl==3.1.2, Pillow==10.0.0 e tabula-py==2.6.0
 
-Additionally, the code has the following dependencies: 
-
-absl-py==1.4.0
-astunparse==1.6.3 
-cachetools==5.3.1 
-certifi==2023.7.22
-charset-normalizer==3.2.0
-distro==1.8.0
-et-xmlfile==1.1.0
-flatbuffers==23.5.26
-gast==0.4.0
-google-auth==2.22.0
-google-auth-oauthlib==1.0.0
-google-pasta==0.2.0
-grpcio==1.57.0
-h5py==3.9.0
-idna==3.4
-importlib-metadata==6.8.0
-keras==2.13.1
-libclang==16.0.6
-llvmlite==0.40.1
-Markdown==3.4.4
-MarkupSafe==2.1.3
-numba==0.57.1
-numpy==1.24.2
-oauthlib==3.2.2
-openpyxl==3.1.2
-opt-einsum==3.3.0
-packaging==23.1
-pandas==2.1.0
-Pillow==10.0.0
-protobuf==4.24.2
-pyasn1==0.5.0
-pyasn1-modules==0.3.0
-python-dateutil==2.8.2
-pytz==2023.3
-requests==2.31.0
-requests-oauthlib==1.3.1
-rsa==4.9
-six==1.16.0
-tabula-py==2.6.0
-tensorboard==2.13.0
-tensorboard-data-server==0.7.1
-tensorflow==2.13.0
-tensorflow-estimator==2.13.0
-tensorflow-intel==2.13.0
-tensorflow-io-gcs-filesystem==0.31.0
-termcolor==2.3.0
-tkinter==8.6
-typing_extensions==4.5.0
-tzdata==2023.3
-urllib3==1.26.16
-Werkzeug==2.3.7
-wrapt==1.15.0
-zipp==3.16.2
+Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==10.0.0 and tabula-py==2.6.0
 
 ## :books: Funcionalidades/ Functionalities
 * Converte uma planilha com formato definido em PDF para uma planilha em excel. Além disso, realiza cálculos adicionais para controle de estoque.
@@ -101,6 +47,14 @@ zipp==3.16.2
 Esse código foi desenvolvido para uma planilha pré-definida, que por razões de sigilo não pode ser compartilhada aqui. Assim, não há garantias de que o código converterá 100% outros modelos de planilha no formato PDF.
 
 This code was developed for a pre-defined spreadsheet, which for confidentiality reasons cannot be shared here. Therefore, there are no guarantees that the code will 100% convert other spreadsheet templates to PDF format.
+
+Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
+1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.9.13
+2) Ativar o ambiente virtual: conda activate <venv_name>
+3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
+4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
+5) Executar o código: python "main.py"
+   
 
 ## :dart: Status do projeto
 O projeto está finalizado.
