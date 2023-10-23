@@ -38,6 +38,7 @@ Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==
 * Converts a spreadsheet with a defined format in PDF to an Excel spreadsheet. In addition, it performs additional calculations for inventory control.
  
 ## :wrench: Tecnologias utilizadas
+* Python;
 * Tkinter;
 * Tabula module
 
