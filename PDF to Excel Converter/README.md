@@ -27,11 +27,9 @@ get the desired format. With the dataframes correctly configured, they are merge
 For reasons of confidentiality, neither PDF documents nor generated spreadsheets were included in this repository.
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13. 
-Além disso, o código possui as seguintes dependências: openpyxl==3.1.2, Pillow==10.0.0 e tabula-py==2.6.0
+Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13. Além disso, o código possui as seguintes dependências: openpyxl==3.1.2, Pillow==10.0.0 e tabula-py==2.6.0
 
-This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
-Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==10.0.0 and tabula-py==2.6.0
+This code was developed using PyCharm 2022.3.2 e o Python version 3.9.13. Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==10.0.0 and tabula-py==2.6.0
 
 ## :books: Funcionalidades/ Functionalities
 * Converte uma planilha com formato definido em PDF para uma planilha em excel. Além disso, realiza cálculos adicionais para controle de estoque.
