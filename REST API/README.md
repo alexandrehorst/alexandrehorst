@@ -1,18 +1,24 @@
 <h1 align="center">:file_cabinet: Photo Downloader README.md</h1>
 
 ## :memo: Descrição/ Description
+Este é um projeto simples de API REST cujo objetivo é fornecer a receita de vendas de alguns produtos quando o usuário faz uma solicitação (GET) a ela. A API foi desenvolvida usando o Flask.
+A API importa dados do banco de dados (o arquivo excel chamado "VENDAS - DEZ.xlsx"), processa-os usando o pandas e responde às solicitações no formato JSON. Você pode fazer o upload da API para um servidor (Heroku ou Replit) com o arquivo excel e colocá-lo online, ou pode executá-lo localmente usando uma IDE como o PyCharm, o Spyder ou o Jupyter.
+
 This is a simple REST API project whose objective is to provide the sales revenue of some products when the user makes a request (GET) to it. The API was developed using Flask.
 The API import data from the database (the excel file named "VENDAS - DEZ.xlsx"), process it using pandas and respond the requests in the JSON format. You can upload the API to a server (Heroku or Replit) with the excel file and put it online or you can run it locally using an IDE like PyCharm, Spyder or Jupyter. 
 
 
-## :books: Funcionalidades
+## :books: Funcionalidades/ Functionalities
 * Realiza o download automático de todas as fotos que se encontram no site.
 * Automatically downloads all photos found on the website.
  
-## :wrench: Tecnologias utilizadas
-* Webscraping
+## :wrench: Tecnologias utilizadas/ Tecnologies
+* Python;
+* REST API;
+* JSON; e
+* Flask
 
-## :rocket: Rodando o projeto
+## :rocket: Rodando o projeto/ How to run the code
 Para rodar o código, o usuário precisa ter login e senha no site, os quais não serão disponibilizados aqui.
 
 To run the code, the user must have credentias to acess the website.
@@ -55,7 +61,7 @@ Example: running the API in PyCharm
 http://127.0.0.1:5000/vendas/produtos/Sunga
 Response: {"Valor Final": 12300}
 
-## :dart: Status do projeto
+## :dart: Status do projeto/ Project satus
 O projeto está finalizado.
 
 The project is done.
