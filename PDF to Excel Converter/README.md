@@ -46,14 +46,22 @@ Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==
 ## :rocket: Rodando o projeto
 Esse código foi desenvolvido para uma planilha pré-definida, que por razões de sigilo não pode ser compartilhada aqui. Assim, não há garantias de que o código converterá 100% outros modelos de planilha no formato PDF.
 
-This code was developed for a pre-defined spreadsheet, which for confidentiality reasons cannot be shared here. Therefore, there are no guarantees that the code will 100% convert other spreadsheet templates to PDF format.
-
 Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.9.13
 2) Ativar o ambiente virtual: conda activate <venv_name>
 3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
 5) Executar o código: python "main.py"
+
+This code was developed for a pre-defined spreadsheet, which for confidentiality reasons cannot be shared here. Therefore, there are no guarantees that the code will 100% convert other spreadsheet templates to PDF format.
+
+To run the code, you need the following (using the Anaconda prompt):
+
+1. Create the virtual environment in a specific directory: `conda create -n <venv_name> python=3.9.13`
+2. Activate the virtual environment: `conda activate <venv_name>`
+3. Verify that everything is okay: `python --version` (you should see the message: Python 3.9.13)
+4. Using the prompt, navigate to the directory where the code files are located.
+5. Run the code: `python "main.py"`
    
 
 ## :dart: Status do projeto
