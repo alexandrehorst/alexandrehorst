@@ -28,11 +28,9 @@ For reasons of confidentiality, neither PDF documents nor generated spreadsheets
 
 ## ⚓: Dependências/ Dependencies
 Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13. 
-
-This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
-
 Além disso, o código possui as seguintes dependências: openpyxl==3.1.2, Pillow==10.0.0 e tabula-py==2.6.0
 
+This code was developed using PyCharm 2022.3.2 e o Python versão 3.9.13.
 Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==10.0.0 and tabula-py==2.6.0
 
 ## :books: Funcionalidades/ Functionalities
