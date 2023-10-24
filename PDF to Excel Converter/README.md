@@ -31,16 +31,16 @@ Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3
 
 This code was developed using PyCharm 2022.3.2 e o Python version 3.9.13. Additionally, the code has the following dependencies: openpyxl==3.1.2, Pillow==10.0.0 and tabula-py==2.6.0
 
-## :books: Funcionalidades/ Functionalities
+## :books: Funcionalidades/ Features
 * Converte uma planilha com formato definido em PDF para uma planilha em excel. Além disso, realiza cálculos adicionais para controle de estoque.
 * Converts a spreadsheet with a defined format in PDF to an Excel spreadsheet. In addition, it performs additional calculations for inventory control.
  
-## :wrench: Tecnologias utilizadas
+## :wrench: Tecnologias utilizadas/ Technologies Used
 * Python;
 * Tkinter;
 * Tabula module
 
-## :rocket: Rodando o projeto
+## :rocket: Rodando o projeto/ Running the code
 Esse código foi desenvolvido para uma planilha pré-definida, que por razões de sigilo não pode ser compartilhada aqui. Assim, não há garantias de que o código converterá 100% outros modelos de planilha no formato PDF.
 
 Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
@@ -48,13 +48,7 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 2) Ativar o ambiente virtual: conda activate <venv_name>
 3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
-5) Instalar as dependências usando os comandos:
-   
-   . pip install tabula-py==2.6.0
-   
-   . pip install pillow==10.0.0
-   
-   . pip install openpyxl==3.1.2
+5) Instalar as dependências usando os comandos: pip install tabula-py==2.6.0 pillow==10.0.0 openpyxl==3.1.2
 6) Executar o código: python "main.py"
 
 This code was developed for a pre-defined spreadsheet, which for confidentiality reasons cannot be shared here. Therefore, there are no guarantees that the code will 100% convert other spreadsheet templates to PDF format.
@@ -65,18 +59,11 @@ To run the code, you need the following (using the Anaconda prompt):
 2. Activate the virtual environment: `conda activate <venv_name>`
 3. Verify that everything is okay: `python --version` (you should see the message: Python 3.9.13)
 4. Using the prompt, navigate to the directory where the code files are located.
-5. Install the dependencies:
-   
-   . pip install tabula-py==2.6.0
-   
-   . pip install pillow==10.0.0
-   
-   . pip install openpyxl==3.1.2
-    
+5. Install the dependencies: pip install tabula-py==2.6.0 pillow==10.0.0 openpyxl==3.1.2
 6. Run the code: `python "main.py"`
    
 
-## :dart: Status do projeto
+## :dart: Status do projeto/ Project status
 O projeto está finalizado.
 
 The project is done.
