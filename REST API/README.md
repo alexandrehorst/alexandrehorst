@@ -10,7 +10,7 @@ The API import data from the database (the excel file named "VENDAS - DEZ.xlsx")
 
 ## :books: Funcionalidades/ Functionalities
 * Disponibiliza uma API REST para consulta usando o comando requests.
-* Automatically downloads all photos found on the website.
+* Provides a REST API for querying using the 'requests' command.
  
 ## :wrench: Tecnologias utilizadas/ Tecnologies
 * Python;
