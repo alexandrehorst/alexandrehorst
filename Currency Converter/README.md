@@ -19,9 +19,15 @@ The GUI was developed using Tkinter and the program performs "requests" to an AP
 To get the currecys code you need to acess: https://economia.awesomeapi.com.br/xml/available
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências: requests==2.31.0, openpyxl==3.1.2 e pandas==2.1.1. 
+Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências: 
+* requests==2.31.0;
+* openpyxl==3.1.2; e
+* pandas==2.1.1. 
 
-This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additionally, the code has the following dependencies: requests==2.31.0, openpyxl==3.1.2 e pandas==2.1.1.
+This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additionally, the code has the following dependencies:
+* requests==2.31.0;
+* openpyxl==3.1.2; and
+* pandas==2.1.1.
 
 
 ## :books: Funcionalidades
@@ -41,31 +47,17 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 2) Ativar o ambiente virtual: conda activate <venv_name>
 3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.11.4)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
-5) Instalar as dependências usando os comandos:
-   
-   . pip install requests==2.31.0
-
-   . pip install pandas==2.1.1
-
-   . pip install openpyxl==3.1.2
-
-7) Executar o código: python "Mini_projeto_v4.py"
+5) Instalar as dependências usando o comando: pip install requests==2.31.0 pandas==2.1.1 openpyxl==3.1.2
+6) Executar o código: python "Mini_projeto_v4.py"
 
 To run the code, you need the following (using the Anaconda prompt):
 
-1. Create the virtual environment in a specific directory: `conda create -n <venv_name> python=3.11.4`
-2. Activate the virtual environment: `conda activate <venv_name>`
-3. Verify that everything is okay: `python --version` (you should see the message: Python 3.11.4)
+1. Create the virtual environment in a specific directory: conda create -n <venv_name> python=3.11.4
+2. Activate the virtual environment: conda activate <venv_name>
+3. Verify that everything is okay: python --version (you should see the message: Python 3.11.4)
 4. Using the prompt, navigate to the directory where the code files are located.
-5. Install the dependencies:
-   
-   . pip install requests==2.31.0
-   
-   . pip install pandas==2.1.1
-   
-   . pip install openpyxl==3.1.2
-
-7. Run the code: 'python "Mini_projeto_v4.py"'
+5. Install the dependencies: pip install requests==2.31.0 pandas==2.1.1 openpyxl==3.1.2
+6. Run the code: python "Mini_projeto_v4.py"
 
 
 ## :dart: Status do projeto
