@@ -30,18 +30,18 @@ This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additi
 * pandas==2.1.1.
 
 
-## :books: Funcionalidades
+## :books: Funcionalidades/ Features
 * Busca a cotação de uma única moeda em relação ao Real (R$) para um dia específico ou retorna a cotação de diversas moedas (informadas por meio de uma planilha excel auxiliar) para um período específico.
 * Searches for the price of a single currency in relation to the Real (R$) for a specific day or returns the price of several currencies (informed through an auxiliary Excel spreadsheet) for a specific period.
  
-## :wrench: Tecnologias utilizadas
+## :wrench: Tecnologias utilizadas/ Technologies Used
 * Python
 * Pandas;
 * REST API;
 * Tkinter;
 * Requests
 
-## :rocket: Rodando o projeto
+## :rocket: Rodando o projeto/ Running the code
 Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.11.4
 2) Ativar o ambiente virtual: conda activate <venv_name>
@@ -60,7 +60,7 @@ To run the code, you need the following (using the Anaconda prompt):
 6. Run the code: python "Mini_projeto_v4.py"
 
 
-## :dart: Status do projeto
+## :dart: Status do projeto/ Project Status
 O projeto está finalizado.
 
 The project is done.
