@@ -49,6 +49,7 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 Resposta: {"faturamento": value}, onde "faturamento" representa o faturamento total com vendas.
 
 * Para fazer uma consulta a API e verificar o faturamento total de cada produto: requests.get('http://127.0.0.1:5000/vendas/produtos') ou requests.get("http address"/vendas/produtos)
+  
 Resposta: {"Valor Final":{"Bermuda":18450,"Bermuda Estampa":18590,"Bermuda Linho":25545,"Bermuda Liso":18683,"Bermuda Listrado":20212,"Bermuda Xadrez":20770,"Cal\u00e7a":23120,"Cal\u00e7a Estampa":21240,
 "Cal\u00e7a Linho":27008,"Cal\u00e7a Liso":29830,"Cal\u00e7a Listrado":22806,"Cal\u00e7a Xadrez":15355,"Camisa":14600,"Camisa Estampa":19549,"Camisa Gola V":11100,"Camisa Gola V Estampa":17582,
 "Camisa Gola V Linho":17110,"Camisa Gola V Liso":18644,"Camisa Gola V Listrado":11832,"Camisa Gola V Xadrez":13910,"Camisa Linho":21432,"Camisa Liso":16380,"Camisa Listrado":15120,"Camisa Xadrez":13440,
@@ -85,6 +86,7 @@ To run the code, you need to do the following (using the Anaconda prompt):
 Response: {"revenue": value}, where "revenue" represents the total sales revenue.
 
 * To make a query to the API and check the total revenue for each product use: requests.get('http://127.0.0.1:5000/vendas/produtos') or requests.get("http address/vendas/produtos")
+  
 Response: {"Valor Final":{"Bermuda":18450,"Bermuda Estampa":18590,"Bermuda Linho":25545,"Bermuda Liso":18683,"Bermuda Listrado":20212,"Bermuda Xadrez":20770,"Cal\u00e7a":23120,"Cal\u00e7a Estampa":21240,
 "Cal\u00e7a Linho":27008,"Cal\u00e7a Liso":29830,"Cal\u00e7a Listrado":22806,"Cal\u00e7a Xadrez":15355,"Camisa":14600,"Camisa Estampa":19549,"Camisa Gola V":11100,"Camisa Gola V Estampa":17582,
 "Camisa Gola V Linho":17110,"Camisa Gola V Liso":18644,"Camisa Gola V Listrado":11832,"Camisa Gola V Xadrez":13910,"Camisa Linho":21432,"Camisa Liso":16380,"Camisa Listrado":15120,"Camisa Xadrez":13440,
