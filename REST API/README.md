@@ -20,11 +20,11 @@ The API import data from the database (the excel file named "VENDAS - DEZ.xlsx")
 * Flask
 
 ## :rocket: Rodando o projeto/ How to run the code
-Na API em questão, utiliza-se como base de dados uma planilha de venda de diversos produtos. Poderão ser feitas consultas para se obter o valor total do faturamento das vendas, o valor da venda de cada produto o valor faturado com a venda de cada produto.
+Na API em questão, utiliza-se como base de dados uma planilha de venda de diversos produtos (Vendas - Dez.xslx). Poderão ser feitas consultas para se obter o valor total do faturamento das vendas, o valor da venda de cada produto o valor faturado com a venda de cada produto.
 
-Para rodar o código, é importante que a planilha (aruqivo excel) esteja no mesmo diretório do arquivo REST API.py.
+Para rodar o código, é importante que a planilha (Vendas - Dez.xslx) esteja no mesmo diretório do arquivo REST API.py.
 
-Para rodar a API, basta usar o comando: python "REST API.py". Esse comando rodará a API localmente no endereço (http://127.0.0.1:5000), a qual poderá receber consultas utilizando qualquer IDE (PyCharm, Jupyter, Sypder, etc). Para isso será preciso executar os seguintes comandos:
+Para rodar a API, basta usar o comando (usando o prompt anaconda): python "REST API.py". Esse comando disponibilizará o serviço da API localmente no endereço (http://127.0.0.1:5000), a qual poderá receber consultas utilizando qualquer IDE (PyCharm, Jupyter, Sypder, etc). Para isso será preciso executar os seguintes comandos:
 1) Consulta o valor do faturamento total
 import requests
 r=requests.get('http://127.0.0.1:5000/') ou requests.get("http address")
