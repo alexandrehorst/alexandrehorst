@@ -11,6 +11,7 @@ def fat():  # função
     return {"faturamento": faturamento}
 
 
+# Resquest para saber o valor faturado com reterminado produto
 @app.route("/vendas/produtos")
 def vendas_produtos():
     tabela_vendas_produtos = tabela[["Produto", "Valor Final"]].groupby("Produto").sum()
@@ -18,6 +19,7 @@ def vendas_produtos():
     return dic_vendas_produtos
 
 
+# Retorna o valor faturado com determinado produto
 @app.route("/vendas/produtos/<produto>")
 def fat_produto(produto):
     tabela_vendas_produtos = tabela[["Produto", "Valor Final"]].groupby("Produto").sum()
