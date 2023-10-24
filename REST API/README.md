@@ -7,6 +7,7 @@ A API importa dados do banco de dados (o arquivo excel chamado "VENDAS - DEZ.xls
 This is a simple REST API project whose objective is to provide the sales revenue of some products when the user makes a request (GET) to it. The API was developed using Flask.
 The API import data from the database (the excel file named "VENDAS - DEZ.xlsx"), process it using pandas and respond the requests in the JSON format. You can upload the API to a server (Heroku or Replit) with the excel file and put it online or you can run it locally using an IDE like PyCharm, Spyder or Jupyter. 
 
+## ⚓: Dependências/ Dependencies
 
 ## :books: Funcionalidades/ Functionalities
 * Disponibiliza uma API REST para consulta usando o comando requests.
