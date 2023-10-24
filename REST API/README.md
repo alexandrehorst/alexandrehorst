@@ -2,12 +2,23 @@
 
 ## :memo: Descrição/ Description
 Este é um projeto simples de API REST cujo objetivo é fornecer a receita de vendas de alguns produtos quando o usuário faz uma solicitação (GET) a ela. A API foi desenvolvida usando o Flask.
-A API importa dados do banco de dados (o arquivo excel chamado "VENDAS - DEZ.xlsx"), processa-os usando o pandas e responde às solicitações no formato JSON. Você pode fazer o upload da API para um servidor (Heroku ou Replit) com o arquivo excel e colocá-lo online, ou pode executá-lo localmente usando uma IDE como o PyCharm, o Spyder ou o Jupyter.
+A API importa dados do banco de dados (o arquivo excel chamado "VENDAS - DEZ.xlsx"), processa-os usando o pandas e responde às solicitações no formato JSON. Você pode fazer o upload da API para um servidor (Heroku ou Replit) com o arquivo excel e colocá-la online (rode o código REST_API.py), ou pode executá-lo localmente usando uma IDE como o PyCharm, o Spyder ou o Jupyter. Há também um código para fazer as requisições à API (consulta_api.py).
 
 This is a simple REST API project whose objective is to provide the sales revenue of some products when the user makes a request (GET) to it. The API was developed using Flask.
-The API import data from the database (the excel file named "VENDAS - DEZ.xlsx"), process it using pandas and respond the requests in the JSON format. You can upload the API to a server (Heroku or Replit) with the excel file and put it online or you can run it locally using an IDE like PyCharm, Spyder or Jupyter. 
+The API import data from the database (the excel file named "VENDAS - DEZ.xlsx"), process it using pandas and respond the requests in the JSON format. You can upload the API to a server (Heroku or Replit) with the excel file and put it online (running the code REST_API.py) or you can run it locally using an IDE like PyCharm, Spyder or Jupyter. There is a code to make requests to the API Service (consulta_api.py).
 
-## ⚓: Dependências/ Dependencies
+## ⚓ Dependências/ Dependencies
+Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências:
+* requests==2.31.0;
+* openpyxl==3.1.2;
+* pandas==2.1.1; e
+* flask==3.0.0
+
+This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additionally, the code has the following dependencies:
+* requests==2.31.0;
+* openpyxl==3.1.2;
+* pandas==2.1.1; and
+* flask==3.0.0
 
 ## :books: Funcionalidades/ Functionalities
 * Disponibiliza uma API REST para consulta usando o comando requests.
@@ -20,12 +31,21 @@ The API import data from the database (the excel file named "VENDAS - DEZ.xlsx")
 * Requests; e
 * Flask
 
-## :rocket: Rodando o projeto/ How to run the code
-Na API em questão, utiliza-se como base de dados uma planilha de venda de diversos produtos (Vendas - Dez.xslx). Poderão ser feitas consultas para se obter o valor total do faturamento das vendas, o valor da venda de cada produto o valor faturado com a venda de cada produto.
+## :rocket: Rodando o projeto/ Running the code
+Na API em questão, utiliza-se como base de dados uma planilha de venda de diversos produtos (Vendas - Dez.xslx). Poderão ser feitas consultas para se obter o valor total do faturamento das vendas, o valor do faturamento obtido com a venda de cada produto e o valor do faturamento para um produto específico.
 
-Para rodar o código, é importante que a planilha (Vendas - Dez.xslx) esteja no mesmo diretório do arquivo REST API.py.
+Para rodar o código, é importante que a planilha (Vendas - Dez.xslx) esteja no mesmo diretório do arquivo REST_API.py e consulta_api.py.
 
-Para rodar a API, basta usar o comando (usando o prompt anaconda): python "REST API.py". Esse comando disponibilizará o serviço da API localmente no endereço (http://127.0.0.1:5000), a qual poderá receber consultas utilizando qualquer IDE (PyCharm, Jupyter, Sypder, etc). Para isso será preciso executar os seguintes comandos:
+Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
+1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.11.4
+2) Ativar o ambiente virtual: conda activate <venv_name>
+3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.11.4)
+4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
+5) Instalar as dependências usando o comando: pip install requests==2.31.0 pandas==2.1.1 openpyxl==3.1.2 flask==3.0.0
+6) Deixar o serviço da API online: python "REST_API.py"
+7) Rodar o código para consulta a API: python "consulta_api.py"
+
+Para fazer uma consulta a API isso será preciso executar os seguintes comandos:
 1) Consulta o valor do faturamento total
 import requests
 r=requests.get('http://127.0.0.1:5000/') ou requests.get("http address")
