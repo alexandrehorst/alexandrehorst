@@ -24,7 +24,7 @@ This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additi
 * Disponibiliza uma API REST para consulta usando o comando requests.
 * Provides a REST API for querying using the 'requests' command.
  
-## :wrench: Tecnologias utilizadas/ Tecnologies
+## :wrench: Tecnologias utilizadas/ Tecnologies used
 * Python;
 * REST API;
 * JSON;
