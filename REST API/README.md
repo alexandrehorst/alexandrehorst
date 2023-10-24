@@ -20,7 +20,7 @@ This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additi
 * pandas==2.1.1; and
 * flask==3.0.0
 
-## :books: Funcionalidades/ Functionalities
+## :books: Funcionalidades/ Features
 * Disponibiliza uma API REST para consulta usando o comando requests.
 * Provides a REST API for querying using the 'requests' command.
  
@@ -68,7 +68,7 @@ Resposta: {"Valor Final":{"Bermuda":18450,"Bermuda Estampa":18590,"Bermuda Linho
 * Para fazer uma consulta a API e verificar o faturamento total específico de um produto: requests.get('http://127.0.0.1:5000/vendas/produtos/:nome_produto') ou requests.get("http address"/vendas/produtos/:nome_produto) 
 Resposta: Response: {"Valor Final": 12300}
 
-In this API example, a spreadsheet of various product sales (Vendas - Dez.xlsx) is used as the database. Queries can be made to obtain the total sales revenue, the revenue obtained from the sale of each product, and the revenue for a specific product.
+In this API example, a product sales spreadsheet (Vendas - Dez.xlsx) is used as the database. Queries can be made to obtain the total sales revenue, the revenue obtained from the sale of each product, and the revenue for a specific product.
 
 To run the code, it is important that the spreadsheet (Sales - Dec.xlsx) and the files REST_API.py and consulta_api.py are in the same directory.
 
