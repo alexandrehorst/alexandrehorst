@@ -4,8 +4,12 @@
 Este é um projeto simples de API REST cujo objetivo é fornecer a receita de vendas de alguns produtos quando o usuário faz uma requisição (GET) a ela. A API foi desenvolvida usando o Flask.
 A API importa as informações do banco de dados (o arquivo excel chamado "VENDAS - DEZ.xlsx"), processa-os usando o pandas e responde às requisições no formato JSON. Você pode fazer o upload da API para um servidor (Heroku ou Replit) com o arquivo excel e colocá-la online, ou pode executá-lo localmente usando uma IDE como o prompt do Anaconda, o PyCharm, o Spyder ou o Jupyter (rode o código REST_API.py). Há também um código para fazer as requisições à API (consulta_api.py).
 
+No meu github há duas imagens: a primeira mostra a API online recebendo as conultas (requests) e a segunda mostra o resultado dessas consultas.
+
 This is a simple REST API project whose objective is to provide the sales revenue of some products when the user makes a request (GET) to it. The API was developed using Flask.
 The API import the informations from the database (the excel file named "VENDAS - DEZ.xlsx"), process it using pandas and respond the requests in the JSON format. You can upload the API to a server (Heroku or Replit) with the excel file and put it online or you can run it locally using the Anaconda Prompt or an IDE like PyCharm, Spyder or Jupyter. There is a code to make requests to the API Service (consulta_api.py).
+
+On my GitHub, there are two images: the first one shows the online API receiving the requests (get), and the second one shows the results of those requests.
 
 ## ⚓ Dependências/ Dependencies
 Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências:
