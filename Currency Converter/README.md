@@ -9,6 +9,8 @@ A GUI foi desenvolvida utilizando o Tkinter e o programa realiza "requests" à A
 
 Para saber o código das moedas utilizadas você precisa acessar o link: https://economia.awesomeapi.com.br/xml/available
 
+No meu github há uma imagem da tela da aplicação e uma planilha contendo o resultado do pedido de cotação referente ao período mostrado na figura. 
+
 This Currency Converter System is able to convert several different cuurecys to Reais (R$) from Brazil and has 2 operating modes:
 1) In the first one, you can convert a specific currency in a specific date selected by the user in the GUI;
 
@@ -17,6 +19,8 @@ This Currency Converter System is able to convert several different cuurecys to 
 The GUI was developed using Tkinter and the program performs "requests" to an API called https://docs.awesomeapi.com.br/api-de-moedas to obtain the currencys convertiosn done in reais (BRL). In addition, the concept of lists and Pandas are used to manipulate data and save them in files. A Combobox with automatic autocompletion was also developed, so that when typing a few letters the program already indicates some currency options to be selected.
 
 To get the currecys code you need to acess: https://economia.awesomeapi.com.br/xml/available
+
+On my GitHub, there is an image of the application screen and a spreadsheet containing the quotation request result for the period shown in the figure.
 
 ## ⚓: Dependências/ Dependencies
 Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.11.4. Além disso, o código possui as seguintes dependências: 
