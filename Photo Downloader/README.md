@@ -23,7 +23,7 @@ This code was developed using Jupyter Notebook version 6.5.4 and Python version 
 * webdriver (ChromeDriver==116.0.5845.96);
 * urllib.request==3.11; and
 * bs4==4.12.2; and
-* The code also depends on an auxiliary credentials.py file containing the user's credentials to access the website.
+* The code also depends on an auxiliary file (credentials.py) containing the user's credentials to access the website.
 
 The `webdriver.exe` file must be placed in a directory that is in the operating system's PATH. This will allow Python to find the file correctly when executing the code. You can place `webdriver.exe` in a directory like `C:\Windows` or add the directory where the file is located to the system PATH. This way, Python will be able to find it while executing the code.
 
