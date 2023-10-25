@@ -12,7 +12,7 @@ botão "converter arquivo" e o arquivo excel será gerado dentro da pasta onde o
 Para desenvolver o programa, foi utilizado o módulo tabula que converte cada página documento em pdf num dataframe. Em seguida, são feitas manipulações nas colunas e linhas dos 
 dataframes até que os mesmos fiquem no formato de colunas desejados. Com os dataframes corretamente configurados, os mesmos são mesclados num único dataframe que é salvo em excel.
 
-Por questões de sigilo, não foram inseridos neste repositório os documentos em pdf nem as planilhas geradas. 
+Por questões de sigilo, não foram inseridos neste repositório os documentos em pdf nem as planilhas geradas, entretanto, há uma imagem da interface do usuário. 
 
 This program was created to solve a specific problem: to transform a PDF warehouse list into an Excel file that could be manipulated.
 Before developing this program, this transformation was carried out using generic programs that perform this type of conversion. However, to have the perfect spreadsheet it was 
@@ -24,7 +24,7 @@ To use the program, you just simply click on the "select file" button and a wind
 To develop the program, the tabula module was used. This module converts each page of the PDF into a dataframe. Then, the dataframes` columns and rows are manipulated until they
 get the desired format. With the dataframes correctly configured, they are merged into a single dataframe that is saved in Excel.
 
-For reasons of confidentiality, neither PDF documents nor generated spreadsheets were included in this repository.
+For reasons of confidentiality, neither PDF documents nor generated spreadsheets were included in this repository, however, there is a screenshot of the user interface.
 
 ## ⚓: Dependências/ Dependencies
 Este código foi desenvolvido utilizando o PyCharm 2022.3.2 e o Python versão 3.9.13. Além disso, o código possui as seguintes dependências: 
