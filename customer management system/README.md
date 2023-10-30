@@ -22,7 +22,27 @@ Na configuração da sua conta do Google, você precisará criar um projeto e ha
 
 No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) contendo as operações de marcação de consulta e visualização das listagem de pacientes. Há ainda uma terceira figura que ilustra o e-mail que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail. Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao seu e-mail. 
 
+#########################################################################################################################################################################################################
 
+This was my first project developed using Python. The motivation for creating it was the fact that my wife is a dentist, and I wanted to help her automate her office in some way.
+
+This program is based on list manipulation (cad -> the main list), which is composed of several sub-lists containing the information of each patient. The list can be loaded from an Excel spreadsheet (currently) or from a database (SQL database in the future). Patient data sub-lists are basically organized by: name, telephone, address, patient ID (called CPF in Brazil), profession, email, next appointment date, next appointment time, and email sending flag.
+
+Software features: patient registration, appointment scheduling/rescheduling/cancellation (synchronized with a Google Calendar account), schedule viewing, patient data viewing, automatic email sending N days before an appointment for patients requesting confirmation, and integration with Google Calendar (requires some configuration in your Google account and token creation).
+
+In the end, an Excel file is generated with all the saved data. Each time you run the program, you will be asked whether you want to import the previously saved data or start a new session. In the future, I plan to integrate it with an SQL database (it's in my action plan).
+
+For automatic email sending, you will need to create a Gmail application password and enter a valid Gmail account on line 134.
+
+To add, read, modify, or delete appointments using the Google Calendar API, you need to follow the actions described at https://developers.google.com/calendar/api/quickstart/python.
+
+Be careful with the correct use of JSON files.
+
+In your Google account settings, you will need to create a project and enable API usage.
+
+You need to install the google-auth module (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
+
+On my GitHub, there are screenshots of the application's interface (with fictitious patient data) showing the appointment scheduling operations and patient listing. There's also a third image illustrating the email sent to the patient as the appointment approaches, demonstrating the program's integration with the Google API and Gmail. It's worth noting that the scheduled appointment can be viewed by her in the Google Calendar associated with her email.
 
 
 ## ⚓: Dependências/ Dependencies
