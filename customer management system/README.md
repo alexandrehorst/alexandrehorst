@@ -20,18 +20,10 @@ Na configuração da sua conta do Google, você precisará criar um projeto e ha
 
 É necessário instalar o módulo google-auth (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
 
-No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) conetndo as operações de marcação de consulta e visualização das listagem de pacientes. Há ainda um aterceira figura que ilustra o e-mail que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail. Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao e-mail dela. 
+No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) contendo as operações de marcação de consulta e visualização das listagem de pacientes. Há ainda uma terceira figura que ilustra o e-mail que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail. Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao e-mail dela. 
 
-This Currency Converter System is able to convert several different cuurecys to Reais (R$) from Brazil and has 2 operating modes:
-1) In the first one, you can convert a specific currency in a specific date selected by the user in the GUI;
 
-2) In secodnd way, you can convert multiple currencys at the same time for a specific period. You just have to enter the currency codes  through an excel spreadsheet containing the codes in the first column (Ex: USD, EUR, BTC), for example the file Moedas.xlsx. After the input file selection, the user informs the conversion period by inserting the date in the dd/mm/yy format (other formats are also accepted). Finally, the user must clicks on the button named "Atualizar cotação" and an excel file with the information will be generated in the same directory as the input file.
 
-The GUI was developed using Tkinter and the program performs "requests" to an API called https://docs.awesomeapi.com.br/api-de-moedas to obtain the currencys convertiosn done in reais (BRL). In addition, the concept of lists and Pandas are used to manipulate data and save them in files. A Combobox with automatic autocompletion was also developed, so that when typing a few letters the program already indicates some currency options to be selected.
-
-To get the currecys code you need to acess: https://economia.awesomeapi.com.br/xml/available
-
-On my GitHub, there is an image of the application screen and a spreadsheet containing the quotation request result for the period shown in the figure.
 
 ## ⚓: Dependências/ Dependencies
 Este código foi desenvolvido utilizando o Spyder versão 5.2.2 e o Python versão 3.6.1. Além disso, o código possui as seguintes dependências:
