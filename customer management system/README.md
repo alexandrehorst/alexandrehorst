@@ -84,6 +84,8 @@ To run the code, you need the following (using the Anaconda prompt):
 
 
 ## :dart: Status do projeto/ Project Status
-O projeto está finalizado.
-
-The project is done.
+Próximas atividades do projeto/ Project Roadmap:
+* Create an executable version;
+* Deploy it in Google Clouds;
+* Integration with a SQL Database; and
+* Create an user interface.
