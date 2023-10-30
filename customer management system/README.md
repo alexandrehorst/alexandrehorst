@@ -1,7 +1,7 @@
 <h1 align="center">:file_cabinet: Customer Management System README.md</h1>
 
 ## :memo: Descrição/ Description
-Esse foi o primeiro projeto desenvolvido por mim utilizando Python. A motivação para escrevê-lo foi o fato de minha esposa ser dentista e eu queria ajudá-la a automatizar de alguma forma o seu consultório.
+Esse foi o primeiro projeto desenvolvido por mim utilizando Python. A motivação para escrevê-lo foi o fato de minha esposa ser dentista e eu querer ajudá-la a automatizar de alguma forma o seu consultório.
 
 Este programa é baseado na manipulação de listas (cad -> a lista principal) que é composta por várias sub-listas, que contêm as informações de cada paciente. A lista pode ser carregada de uma planilha do Excel (atualmente) ou de um banco de dados (banco de dados SQL no futuro).
 As sub-listas de dados do paciente são basicamente organizadas por: nome, telefone, endereço, número de identificação do paciente (chamado CPF no Brasil), profissão, e-mail, dia da próxima consulta, horário da próxima consulta e sinalização de envio de e-mail.
@@ -62,6 +62,12 @@ This code was developed using Spyder version 5.2.2 and Python version 3.6.1. Add
 * Requests
 
 ## :rocket: Rodando o projeto/ Running the code
+* Para o envio automático de e-mails, você precisará criar uma senha de aplicativo do Gmail e inserir uma conta do Gmail válida na linha 134.
+* Para incluir, ler, modificar ou excluir agendamentos usando a API do Google Calendar, é necessário seguir as ações descritas em https://developers.google.com/calendar/api/quickstart/python.
+* Tenha cuidado com o uso correto dos arquivos JSON.
+* Na configuração da sua conta do Google, você precisará criar um projeto e habilitar o uso da API.
+* É necessário instalar o módulo google-auth (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
+
 Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.6.1
 2) Ativar o ambiente virtual: conda activate <venv_name>
