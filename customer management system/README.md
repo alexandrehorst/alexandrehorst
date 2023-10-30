@@ -68,7 +68,7 @@ This code was developed using Spyder version 5.2.2 and Python version 3.6.1. Add
 * Agendamento/reagendamento/desmarcação de consultas (sincronizado com uma conta do Google Calendar)/ Appointment scheduling/rescheduling/cancellation (synchronized with a Google Calendar account);
 * Visualização de agendamento/ Schedule viewing;
 * Visualização de dados do paciente/ Patient data viewing;
-* Envio automático de e-mails de confirmação de consulta N dias antes/ Automatic email sending for appointment confirmation N days before;;
+* Envio automático de e-mails de confirmação de consulta N dias antes/ Automatic email sending for appointment confirmation N days before;
 * Integração com o Google Calendar (é necessário fazer algumas configurações na sua conta do Google e criar um token)/ Integration with Google Calendar (requires some configuration in your Google account and creating a token).
 
  
