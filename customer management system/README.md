@@ -44,7 +44,12 @@ This code was developed using Spyder version 5.2.2 and Python version 3.6.1. Add
 
 
 ## :books: Funcionalidades/ Features
-* Registro de pacientes, agendamento/reagendamento/desmarcação de consultas (sincronizado com uma conta do Google Calendar), visualização de agendamento, visualização de dados do paciente, envio automático de e-mails N dias antes para pacientes que solicitam confirmação da consulta e integração com o Google Calendar (é necessário fazer algumas configurações na sua conta do Google e criar um token).
+* Cadastro de pacientes;
+* Agendamento/reagendamento/desmarcação de consultas (sincronizado com uma conta do Google Calendar);
+* Visualização de agendamento;
+* Visualização de dados do paciente;
+* Envio automático de e-mails de confirmação de consulta N dias antes;
+* Integração com o Google Calendar (é necessário fazer algumas configurações na sua conta do Google e criar um token).
  
 ## :wrench: Tecnologias utilizadas/ Technologies Used
 * Python
