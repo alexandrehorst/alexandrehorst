@@ -20,8 +20,7 @@ Na configuração da sua conta do Google, você precisará criar um projeto e ha
 
 É necessário instalar o módulo google-auth (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
 
-No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) conetndo as operações de marcação de consulta e visualização das listagem de pacientes. Há ainda um aterceira figura que ilustra o e-mail que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail.
-Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao e-mail dela, 
+No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) conetndo as operações de marcação de consulta e visualização das listagem de pacientes. Há ainda um aterceira figura que ilustra o e-mail que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail. Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao e-mail dela. 
 
 This Currency Converter System is able to convert several different cuurecys to Reais (R$) from Brazil and has 2 operating modes:
 1) In the first one, you can convert a specific currency in a specific date selected by the user in the GUI;
@@ -53,8 +52,7 @@ This code was developed using Spyder version 5.2.2 and Python version 3.6.1. Add
 
 
 ## :books: Funcionalidades/ Features
-* Busca a cotação de uma única moeda em relação ao Real (R$) para um dia específico ou retorna a cotação de diversas moedas (informadas por meio de uma planilha excel auxiliar) para um período específico.
-* Searches for the price of a single currency in relation to the Real (R$) for a specific day or returns the price of several currencies (informed through an auxiliary Excel spreadsheet) for a specific period.
+* Registro de pacientes, agendamento/reagendamento/desmarcação de consultas (sincronizado com uma conta do Google Calendar), visualização de agendamento, visualização de dados do paciente, envio automático de e-mails N dias antes para pacientes que solicitam confirmação da consulta e integração com o Google Calendar (é necessário fazer algumas configurações na sua conta do Google e criar um token).
  
 ## :wrench: Tecnologias utilizadas/ Technologies Used
 * Python
