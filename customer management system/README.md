@@ -64,12 +64,13 @@ This code was developed using Spyder version 5.2.2 and Python version 3.6.1. Add
 
 
 ## :books: Funcionalidades/ Features
-* Cadastro de pacientes;
-* Agendamento/reagendamento/desmarcação de consultas (sincronizado com uma conta do Google Calendar);
-* Visualização de agendamento;
-* Visualização de dados do paciente;
-* Envio automático de e-mails de confirmação de consulta N dias antes;
-* Integração com o Google Calendar (é necessário fazer algumas configurações na sua conta do Google e criar um token).
+* Cadastro de pacientes/ Patient registration;;
+* Agendamento/reagendamento/desmarcação de consultas (sincronizado com uma conta do Google Calendar)/ Appointment scheduling/rescheduling/cancellation (synchronized with a Google Calendar account);
+* Visualização de agendamento/ Schedule viewing;
+* Visualização de dados do paciente/ Patient data viewing;
+* Envio automático de e-mails de confirmação de consulta N dias antes/ Automatic email sending for appointment confirmation N days before;;
+* Integração com o Google Calendar (é necessário fazer algumas configurações na sua conta do Google e criar um token)/ Integration with Google Calendar (requires some configuration in your Google account and creating a token).
+
  
 ## :wrench: Tecnologias utilizadas/ Technologies Used
 * Python
@@ -77,6 +78,7 @@ This code was developed using Spyder version 5.2.2 and Python version 3.6.1. Add
 * Gmail integration;
 * Pandas;
 * Requests
+
 
 ## :rocket: Rodando o projeto/ Running the code
 * Para o envio automático de e-mails, você precisará criar uma senha de aplicativo do Gmail e inserir uma conta do Gmail válida na linha 134.
@@ -94,6 +96,11 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 6) Executar o código: python "consultorio_v6.py"
 
 To run the code, you need the following (using the Anaconda prompt):
+* For automatic email sending, you'll need to create a Gmail application password and enter a valid Gmail account on line 134.
+* To include, read, modify, or delete appointments using the Google Calendar API, you need to follow the actions described at https://developers.google.com/calendar/api/quickstart/python.
+* Be cautious about the correct usage of JSON files.
+* In your Google account settings, you will need to create a project and enable API usage.
+* You need to install the google-auth module (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
 
 1. Create the virtual environment in a specific directory: conda create -n <venv_name> python=3.6.1
 2. Activate the virtual environment: conda activate <venv_name>
