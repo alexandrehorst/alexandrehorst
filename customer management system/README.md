@@ -20,7 +20,7 @@ Na configuração da sua conta do Google, você precisará criar um projeto e ha
 
 É necessário instalar o módulo google-auth (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
 
-No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) contendo as operações de marcação de consulta (foto1.png), visualização das listagem de pacientes (foto2.png) e print da consulta agendada no google calendar (foto3.png). Há ainda uma terceira figura que ilustra o e-mail (e-mail_sistema_gerenciamento.png) que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail. Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao seu e-mail. 
+No meu github há imagens da tela da aplicação (contendo dados de pacientes fictícios) contendo as operações de marcação de consulta (foto1.jpg), visualização das listagem de pacientes (foto2.jpg) e print da consulta agendada no google calendar (foto3.jpg). Há ainda uma terceira figura que ilustra o e-mail (e-mail_sistema_gerenciamento.jpg) que é enviado ao paciente quando a consulta se aproxima, ilustrando a integração do programa com a api do google e gmail. Cabe destacar ainda que o paciente marcado pode ser visualizado por ela no google calendar associado ao seu e-mail. 
 
 #########################################################################################################################################################################################################
 
@@ -42,7 +42,7 @@ In your Google account settings, you will need to create a project and enable AP
 
 You need to install the google-auth module (pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib).
 
-On my GitHub, there are screenshots of the application's interface (with fictitious patient data) showing the appointment scheduling operations (foto1.png), patient listing (foto2.png) and a printscreen of the scheduled appointment in Google Calendar (foto3.png). There's also a third image illustrating the email sent to the patient as the appointment approaches (e-mail_sistema_gerenciamento.png), demonstrating the program's integration with the Google API and Gmail. It's worth noting that the scheduled appointment can be viewed by her in the Google Calendar associated with her email.
+On my GitHub, there are screenshots of the application's interface (with fictitious patient data) showing the appointment scheduling operations (foto1.jpg), patient listing (foto2.jpg) and a printscreen of the scheduled appointment in Google Calendar (foto3.jpg). There's also a third image illustrating the email sent to the patient as the appointment approaches (e-mail_sistema_gerenciamento.jpg), demonstrating the program's integration with the Google API and Gmail. It's worth noting that the scheduled appointment can be viewed by her in the Google Calendar associated with her email.
 
 
 ## ⚓: Dependências/ Dependencies
