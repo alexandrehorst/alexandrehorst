@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Customer Management System README.md</h1>
+<h1 align="center">:file_cabinet: Sistema de Gestão de Pacientes / Customer Management System README.md</h1>
 
 ## :memo: Descrição/ Description
 Esse foi o primeiro projeto desenvolvido por mim utilizando Python. A motivação para escrevê-lo foi o fato de minha esposa ser dentista e eu querer ajudá-la a automatizar de alguma forma o seu consultório.
