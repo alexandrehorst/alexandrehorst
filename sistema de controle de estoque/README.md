@@ -68,22 +68,26 @@ This code was developed using PyCharm 6.4.12 e o Python version 3.9.13. Addition
   
 
 ## :rocket: Rodando o projeto/ Running the code
-Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
-1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.11.4
-2) Ativar o ambiente virtual: conda activate <venv_name>
-3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.11.4)
-4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
-5) Instalar as dependências usando o comando: pip install requests==2.31.0 pandas==2.1.1 openpyxl==3.1.2
-6) Executar o código: python "Mini_projeto_v4.py"
+Antes de rodar o código é importante colocar todos os arquivos no mesmo diretório.
 
+Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
+1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.9.13
+2) Ativar o ambiente virtual: conda activate <venv_name>
+3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
+4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
+5) Instalar as dependências usando o comando: pip install Flask-Bcrypt==1.0.1 pyodbc==4.0.34
+6) Executar o código: python "window_v2.py"
+
+
+Before running the code, it's important to place all the files in the same directory.
 To run the code, you need the following (using the Anaconda prompt):
 
-1. Create the virtual environment in a specific directory: conda create -n <venv_name> python=3.11.4
+1. Create the virtual environment in a specific directory: conda create -n <venv_name> python=3.9.13
 2. Activate the virtual environment: conda activate <venv_name>
-3. Verify that everything is okay: python --version (you should see the message: Python 3.11.4)
+3. Verify that everything is okay: python --version (you should see the message: Python 3.9.13)
 4. Using the prompt, navigate to the directory where the code files are located.
-5. Install the dependencies: pip install requests==2.31.0 pandas==2.1.1 openpyxl==3.1.2
-6. Run the code: python "Mini_projeto_v4.py"
+5. Install the dependencies: pip install Flask-Bcrypt==1.0.1 pyodbc==4.0.34
+6. Run the code: python "window_v2.py"
 
 
 ## :dart: Status do projeto/ Project Status
