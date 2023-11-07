@@ -94,3 +94,28 @@
 2023-11-06 15:32:58,359 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina poliacetal,                 Código de Estoque: 634, Quantidade: 12, Validade: 30/06/24
 2023-11-06 15:32:58,365 - INFO - Operação: [Exclusão de insumo], Usuário: admin, Insumo: resina poliacetal,         Código de estoque: 634, Validade = 30/06/24, Quantidade: 12
 2023-11-06 15:33:46,279 - INFO - Operação: [Inclusão de insumo], Usuário: admin, Insumo: resina poliacetal,             Código de Estoque: 634, Validade: 31/10/24, Quantidade: 50
+2023-11-07 09:48:51,135 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: tinta preta fosca,              Código de Estoque: 665, Quantidade: 2, Validade: 30/06/24
+2023-11-07 09:48:51,135 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso aço inox,              Código de Estoque: 172, Quantidade: 10000, Validade: 
+2023-11-07 09:48:51,135 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina poliacetal,              Código de Estoque: 634, Quantidade: 50, Validade: 31/10/24
+2023-11-07 09:48:51,135 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: aço inox,              Código de Estoque: 636, Quantidade: 10, Validade: 
+2023-11-07 09:49:19,363 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: tinta preta fosca,              Código de Estoque: 665, Quantidade: 2, Validade: 30/06/24
+2023-11-07 09:49:19,363 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso aço inox,              Código de Estoque: 172, Quantidade: 10000, Validade: 
+2023-11-07 09:49:19,363 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina poliacetal,              Código de Estoque: 634, Quantidade: 50, Validade: 31/10/24
+2023-11-07 09:49:19,363 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: aço inox,              Código de Estoque: 636, Quantidade: 10, Validade: 
+2023-11-07 09:49:45,495 - INFO - Operação: [Inclusão de insumo], Usuário: admin, Insumo: parafuso cabeça boleada,             Código de Estoque: 233, Validade: , Quantidade: 1000
+2023-11-07 09:50:56,199 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso cabeça boleada,              Código de Estoque: 233, Quantidade: 1000, Validade: 
+2023-11-07 09:50:56,209 - INFO - Operação: [Exclusão de insumo], Usuário: admin, Insumo: parafuso cabeça boleada,         Código de estoque: 233, Validade = , Quantidade: 1000
+2023-11-07 09:51:11,640 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: tinta preta fosca,              Código de Estoque: 665, Quantidade: 2, Validade: 30/06/24
+2023-11-07 09:51:17,513 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso aço inox,              Código de Estoque: 172, Quantidade: 10000, Validade: 
+2023-11-07 09:51:56,905 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina poliacetal,             Código de Estoque: 634, Quantidade utilizada: 5.0, Nova Quantidade: 45.0,             Validade: 31/10/24
+2023-11-07 09:55:40,686 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: tinta preta fosca,              Código de Estoque: 665, Quantidade: 2, Validade: 30/06/24
+2023-11-07 09:55:40,686 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso aço inox,              Código de Estoque: 172, Quantidade: 10000, Validade: 
+2023-11-07 09:55:40,686 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina poliacetal,              Código de Estoque: 634, Quantidade: 45, Validade: 31/10/24
+2023-11-07 09:55:40,686 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: aço inox,              Código de Estoque: 636, Quantidade: 10, Validade: 
+2023-11-07 09:56:01,806 - INFO - Operação: [Inclusão de insumo], Usuário: admin, Insumo: parafuso M3 preto,             Código de Estoque: 177, Validade: , Quantidade: 10000
+2023-11-07 09:56:09,494 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso M3 preto,              Código de Estoque: 177, Quantidade: 10000, Validade: 
+2023-11-07 09:56:21,526 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: parafuso M3 preto,             Código de Estoque: 177, Quantidade utilizada: 500.0, Nova Quantidade: 9500.0,             Validade: 
+2023-11-07 09:56:55,224 - INFO - Operação: [Inclusão de insumo], Usuário: admin, Insumo: resina maleável,             Código de Estoque: 234, Validade: 30/07/24, Quantidade: 10
+2023-11-07 09:57:02,294 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina maleável,              Código de Estoque: 234, Quantidade: 10, Validade: 30/07/24
+2023-11-07 09:57:16,585 - INFO - Operação: [Procura insumo], Usuário: admin, Insumo: resina maleável,              Código de Estoque: 234, Quantidade: 10, Validade: 30/07/24
+2023-11-07 09:57:16,585 - INFO - Operação: [Exclusão de insumo], Usuário: admin, Insumo: resina maleável,         Código de estoque: 234, Validade = 30/07/24, Quantidade: 10
