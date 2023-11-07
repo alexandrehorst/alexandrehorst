@@ -3,7 +3,7 @@
 ## :memo: Descrição/ Description
 Este sistema foi desenvolvido em Python com o objetivo de realizar a inserção, a alteração, a exclusão e a leitura (CRUD) de informações referentes a itens ou a mercadorias de um banco de dados SQL (arquivo almoxarifado.db) fazendo o controle de estoque dos mesmos. 
 
-A interface de usuário (GUI) (fig1) foi desenvolvida utilizando-se o Proxlight Designer onde se cria um projeto, a partir do qual são gerados um conjunto de imagens (contidas no diretório GUI images) e um arquivo .py utilizando-se o Figma (interface de desenvolvimento baseada no módulo Tkinter). 
+A interface de usuário (GUI) (main_window.png) foi desenvolvida utilizando-se o Proxlight Designer onde se cria um projeto, a partir do qual são gerados um conjunto de imagens (contidas no diretório GUI images) e um arquivo .py utilizando-se o Figma (interface de desenvolvimento baseada no módulo Tkinter). 
 
 O acesso ao sistema é protegido por senha (login_screen.png) de forma que apenas usuários cadastrados podem acessá-lo. O usuário padrão é "admin" e sua senha é "admin". Além disso, a senha dos usuários não fica acessível para todos que acessem o banco de dados, pois apenas o seu hash é salvo nele (na tabela users do banco de dados). Para cadastrar um novo usuário e senha no banco de dados, basta rodar o código password_creation.py.
 
@@ -21,7 +21,7 @@ Por fim, todas as operações realizadas no banco de dados são salvas num log (
 
 This system was developed in Python with the goal of performing the insertion, modification, deletion, and reading (CRUD) of information related to items or merchandise in an SQL database (almoxarifado.db file) to control their inventory.
 
-The user interface (GUI) (fig1) was developed using Proxlight Designer, where a project is created, from which a set of images (located in the GUI images directory) and a .py file are generated using Figma (a development interface based on the Tkinter module).
+The user interface (GUI) (main_window.png) was developed using Proxlight Designer, where a project is created, from which a set of images (located in the GUI images directory) and a .py file are generated using Figma (a development interface based on the Tkinter module).
 
 Access to the system is password-protected (login_screen.png), allowing only registered users to access it. The default user is "admin," and the password is "admin." Additionally, the users' passwords are not accessible to everyone who accesses the database, as only their hash is stored in it (in the users table). To register a new user and password in the database, simply run the password_creation.py code.
 
