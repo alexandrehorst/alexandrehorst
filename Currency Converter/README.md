@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Currency Converter README.md</h1>
+<h1 align="center">:file_cabinet: Conversor de Moedas/ Currency Converter README.md</h1>
 
 ## :memo: Descrição/ Description
 O Sistema de Cotação de Moedas converte vários moedas diferentes para Reais (R$) e possui 2 modos de operação:
