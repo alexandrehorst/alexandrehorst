@@ -17,7 +17,7 @@ O sistema permite as seguintes operações:
 
 Por fim, todas as operações realizadas no banco de dados são salvas num log (arquivo log_db.txt) onde são registradas todas as operações realizadas, o que foi alterado, quem alterou e quando alterou.
 
-===================================================================================================================================================
+=====================================================================================
 
 This system was developed in Python with the goal of performing the insertion, modification, deletion, and reading (CRUD) of information related to items or merchandise in an SQL database (almoxarifado.db file) to control their inventory.
 
