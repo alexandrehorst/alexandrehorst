@@ -3,7 +3,7 @@
 ## :memo: Descrição/ Description
 Este sistema foi desenvolvido em Python com o objetivo de realizar a inserção, a alteração, a exclusão e a leitura (CRUD) de informações referentes a itens ou a mercadorias de um banco de dados SQL (arquivo almoxarifado.db) fazendo o controle de estoque dos mesmos. 
 
-A interface de usuário (GUI) (fig1) foi desenvolvida utilizando-se o Proxlight Designer onde se cria um projeto, que, em seguida, é convertido num arquivo .py utilizando-se o Figma (interface de desenvolvimento baseada no módulo Tkinter). 
+A interface de usuário (GUI) (fig1) foi desenvolvida utilizando-se o Proxlight Designer onde se cria um projeto, a partir do qual são gerados um conjunto de imagens (contidas no diretório GUI images) e um arquivo .py utilizando-se o Figma (interface de desenvolvimento baseada no módulo Tkinter). 
 
 O acesso ao sistema é protegido por senha de forma que apenas usuários cadastrados podem acessá-lo. O usuário padrão é "admin" e sua senha é "admin". Além disso, a senha dos usuários não fica acessível para todos que acessem o banco de dados, pois apenas o seu hash é salvo nele (na tabela users do banco de dados). Para cadastrar um novo usuário e senha no banco de dados, basta rodar o código password_creation.py.
 
