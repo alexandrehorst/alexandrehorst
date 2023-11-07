@@ -13,10 +13,9 @@ O sistema permite as seguintes operações:
 1) Inclusão de itens no estoque mediante o fornecimento do nome, código, quantidade e validade do mesmo;
 2) Exclusão de item do estoque informando o código de estoque do mesmo;
 3) Registro dos itens utilizados (Uso de item) mediante o fornecimento do código de estoque e da quantidade utilizada; e
-4) Procurar itens no estoque mediante o fornecimento do código de estoque (pesquisa específica), de uma palavra chave (mostra todos os itens que possuem aquela palavra) ou mostra todos os itens de estoque (se não for fornecida nenhuma informação). 
+4) Procurar itens no estoque mediante o fornecimento do código de estoque (pesquisa específica), de uma palavra chave (mostra todos os itens que possuem aquela palavra) ou mostra todos os itens de estoque (se não for fornecida nenhuma informação).
 
-
-No meu github há uma imagem da tela da aplicação e uma planilha contendo o resultado do pedido de cotação referente ao período mostrado na figura. 
+Por fim, toda as operações realizadas no banco de dados são salvas num log (arquivo log_db.txt) onde são registradas todas as operações realizadas, o que foi alterado, quem alterou e quando alterou.
 
 English description
 
@@ -34,10 +33,12 @@ This code was developed using PyCharm 2022.3.2 e o Python version 3.11.4. Additi
 
 
 ## :books: Funcionalidades/ Features
-*Inclusão de itens no estoque mediante o fornecimento do nome, código, quantidade e validade do mesmo;
+* Inclusão de itens no estoque mediante o fornecimento do nome, código, quantidade e validade do mesmo;
 * Exclusão de item do estoque informando o código de estoque do mesmo;
-* Registro dos itens utilizados (Uso de item) mediante o fornecimento do código de estoque e da quantidade utilizada; e
-* Procurar itens no estoque mediante o fornecimento do código de estoque (pesquisa específica), de uma palavra chave (mostra todos os itens que possuem aquela palavra) ou mostra todos os itens de estoque (se não for fornecida nenhuma informação). 
+* Registro dos itens utilizados (Uso de item) mediante o fornecimento do código de estoque e da quantidade utilizada;
+* Procurar itens no estoque mediante o fornecimento do código de estoque (pesquisa específica), de uma palavra chave (mostra todos os itens que possuem aquela palavra) ou mostra todos os itens de estoque (se não for fornecida nenhuma informação);
+* Registro de todas as operações por meio de log; e
+* Acesso apenas de usuários cadastrados. 
  
 ## :wrench: Tecnologias utilizadas/ Technologies Used
 * Python
