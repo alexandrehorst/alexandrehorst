@@ -80,6 +80,7 @@ Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
 
 
 Before running the code, it's important to place all the files in the same directory.
+
 To run the code, you need the following (using the Anaconda prompt):
 
 1. Create the virtual environment in a specific directory: conda create -n <venv_name> python=3.9.13
