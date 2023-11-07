@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: PDF to Excel Converter README.md</h1>
+<h1 align="center">:file_cabinet: Conversor de PDF para Excel/ PDF to Excel Converter README.md</h1>
 
 ## :memo: Descrição/ Description
 Este programa foi criado para resolver um problema específico do meu trabalho tranformando uma lista de almoxarifado gerada em pdf em um arquivo excel passível de ser manipulado.
