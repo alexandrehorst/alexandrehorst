@@ -7,7 +7,7 @@ import logging
 
 
 def fazer_login():
-    global entry0, entry1, entry2, entry3, entry4
+    global entry0, entry1, entry2, entry3, entry4, login
     login = entry_usuario.get()
     senha = entry_senha.get()
     bcrypt = Bcrypt()
@@ -164,18 +164,17 @@ def procurar_insumo():
     conexao.close()
     if valores == []:  # Mostra msg ao usuário indicando o resultado da busca
         entry4.insert(END,'Não foi possível localizar nenhum insumo com o código e nome informado!')
-    else:
-        if b0:
-            entry4.insert(END, f'Resultado da Busca:\n') 
-            for busca in valores:
-                # Exibe msg para o usuário na área de texto
-                entry4.insert(END, f'Insumo: {busca[0]}\nCódigo de estoque: {busca[1]}\n'
-                f'Quantidade: {busca[2]}\nValidade: {busca[3]}\n\n')
-                # Registra a operação no log
-                logging.info(f"Operação: [Procura insumo], Usuário: {login}, Insumo: {busca[0]}, \
-                Código de Estoque: {busca[1]}, Quantidade: {busca[2]}, Validade: {busca[3]}")
-            # Apaga os campos de entrada para a realização de uma nova operação com o BD
-            resetar_campos()    
+    else:        
+         entry4.insert(END, f'Resultado da Busca:\n') 
+         for busca in valores:
+             # Exibe msg para o usuário na área de texto
+             entry4.insert(END, f'Insumo: {busca[0]}\nCódigo de estoque: {busca[1]}\n'
+             f'Quantidade: {busca[2]}\nValidade: {busca[3]}\n\n')
+             # Registra a operação no log
+             logging.info(f"Operação: [Procura insumo], Usuário: {login}, Insumo: {busca[0]}, \
+             Código de Estoque: {busca[1]}, Quantidade: {busca[2]}, Validade: {busca[3]}")
+         # Apaga os campos de entrada para a realização de uma nova operação com o BD
+         resetar_campos()    
     return valores    
     
         
@@ -232,7 +231,7 @@ def deletar_insumo():
 
 
 def abrir_janela_principal():
-        global entry0, entry1, entry2, entry3, entry4, botao_selecionado, sub_janela, window 
+        global entry0, entry1, entry2, entry3, entry4, botao_selecionado, sub_janela, window, b0 
         # Inicia o log
         logging.basicConfig(filename='log_db.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
         # Criação da interface gráfica do programa    
