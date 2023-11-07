@@ -53,6 +53,7 @@ This code was developed using PyCharm 6.4.12 e o Python version 3.9.13. Addition
 * Registro de todas as operações por meio de log; e
 * Acesso apenas de usuários cadastrados. 
 
+
 * Create new items in stock by providing their name, code, quantity, and expiration date;
 * Delete an item from stock by specifying its stock code;
 * Update an item quantity (Item Usage) by providing the stock code and the quantity used; 
