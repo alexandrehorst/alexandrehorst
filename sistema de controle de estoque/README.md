@@ -15,7 +15,7 @@ O sistema permite as seguintes operações:
 3) Registro dos itens utilizados (Uso de item) mediante o fornecimento do código de estoque e da quantidade utilizada; e
 4) Procurar itens no estoque mediante o fornecimento do código de estoque (pesquisa específica), de uma palavra chave (mostra todos os itens que possuem aquela palavra) ou mostra todos os itens de estoque (se não for fornecida nenhuma informação).
 
-Por fim, toda as operações realizadas no banco de dados são salvas num log (arquivo log_db.txt) onde são registradas todas as operações realizadas, o que foi alterado, quem alterou e quando alterou.
+Por fim, todas as operações realizadas no banco de dados são salvas num log (arquivo log_db.txt) onde são registradas todas as operações realizadas, o que foi alterado, quem alterou e quando alterou.
 
 English description
 
