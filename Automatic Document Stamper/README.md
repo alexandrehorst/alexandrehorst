@@ -28,7 +28,7 @@ Este código foi desenvolvido utilizando o Jupyter 6.4.12 e o Python versão 3.9
 * PyPDF2==3.0.1; e
 * PyMuPDF==1.23.6
 
-This code was developed using PyCharm 6.4.12 e o Python version 3.9.11. Additionally, the code has the following dependencies:
+This code was developed using Jupyter 6.4.12 e o Python version 3.9.11. Additionally, the code has the following dependencies:
 * PyPDF2==3.0.1; and
 * PyMuPDF==1.23.6
 
