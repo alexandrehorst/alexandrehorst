@@ -41,7 +41,7 @@ Este código foi desenvolvido utilizando o Jupyter 6.4.12 e o Python versão 3.9
 * Flask-Bcrypt==1.0.1; e
 * pyodbc==4.0.34
 
-This code was developed using PyCharm 6.4.12 e o Python version 3.9.13. Additionally, the code has the following dependencies:
+This code was developed using Jupyter 6.4.12 e o Python version 3.9.13. Additionally, the code has the following dependencies:
 * Flask-Bcrypt==1.0.1; e
 * pyodbc==4.0.34
 
