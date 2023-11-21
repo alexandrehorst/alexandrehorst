@@ -25,42 +25,51 @@ The user interface (GUI) (window.png) was developed using Proxlight Designer, cr
 
 ## ⚓: Dependências/ Dependencies
 Este código foi desenvolvido utilizando o Jupyter 6.4.12 e o Python versão 3.9.11. Além disso, o código possui as seguintes dependências: 
-* Flask-Bcrypt==1.0.1; e
-* pyodbc==4.0.34
+* PyPDF2==3.0.1; e
+* PyMuPDF==1.23.6
 
 This code was developed using PyCharm 6.4.12 e o Python version 3.9.11. Additionally, the code has the following dependencies:
-* Flask-Bcrypt==1.0.1; e
-* pyodbc==4.0.34
+* PyPDF2==3.0.1; and
+* PyMuPDF==1.23.6
 
 ## :books: Funcionalidades/ Features
-* Inclusão de itens no estoque mediante o fornecimento do nome, código, quantidade e validade do mesmo;
-* Exclusão de item do estoque informando o código de estoque do mesmo;
-* Registro dos itens utilizados (Uso de item) mediante o fornecimento do código de estoque e da quantidade utilizada;
-* Procurar itens no estoque mediante o fornecimento do código de estoque (pesquisa específica), de uma palavra chave (mostra todos os itens que possuem aquela palavra) ou mostra todos os itens de estoque (se não for fornecida nenhuma informação);
-* Registro de todas as operações por meio de log; e
-* Acesso apenas de usuários cadastrados.
+* Carimba todas as folhas frente e verso;
+* Numera páginas; e
+* Junta todos os documentos iniciais em um documento único.
   
 ===========================================================
-* Create new items in stock by providing their name, code, quantity, and expiration date;
-* Delete an item from stock by specifying its stock code;
-* Update an item quantity (Item Usage) by providing the stock code and the quantity used; 
-* Search for items (Read) in stock by providing the stock code (specific search), a keyword (displays all items containing that word), or displaying all stock items (if no information is provided);
-* Recording of all operations through a log; and
-* Access restricted to registered users.
+* Stamps all pages front and back;
+* Numbers pages; and
+* Combines all initial documents into a single file.
  
 ## :wrench: Tecnologias utilizadas/ Technologies Used
-* Python
-* SQL; and
+* Python; and
 * Tkinter.
   
 
 ## :rocket: Rodando o projeto/ Running the code
-Antes de rodar o código é importante colocar todos os arquivos no mesmo diretório.
+Antes de rodar o código é importante colocar todos os arquivos que precisam ser carimbados num único diretório e ordená-los (basta inserir um número inicial no nome de cada arquivo. Ex: 1.arquivo1, 2.arquivo2, 3.arquivo3 etc)
 
 Para rodar o código é necessário o seguinte (usando o prompt do anaconda):
-1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.9.13
+1) Criar o Ambiente virtual num determinado diretório: conda create -n <venv_name> python=3.9.11
 2) Ativar o ambiente virtual: conda activate <venv_name>
-3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.13)
+3) Verificar se está tudo ok: python --version (deve ser mostrado a mensagem: Python 3.9.11)
 4) Usando o prompt, buscar o diretório onde se encontram os arquivos do código.
-5) Instalar as dependências usando o comando: pip install Flask-Bcrypt==1.0.1 pyodbc==4.0.34
-6) Executar o código: python "window_v2.py"
+5) Instalar as dependências usando o comando: pip install PyPDF2==3.0.1 PyMuPDF==1.23.6
+6) Executar o código: python "window.py"
+
+Before running the code, it's important to place all the files that need to be stamped in a single directory and arrange them (simply insert an initial number in the name of each file. Example: 1.file1, 2.file2, 3.file3, etc.).
+
+To run the code, the following steps are necessary (using the Anaconda prompt):
+
+1) Create the virtual environment in a specific directory: conda create -n <venv_name> python=3.9.11
+2) Activate the virtual environment: conda activate <venv_name>
+3) Verify everything is okay: python --version (it should display the message: Python 3.9.11)
+4) Using the prompt, navigate to the directory where the code files are located.
+5) Install dependencies using the command: pip install PyPDF2==3.0.1 PyMuPDF==1.23.6
+6) Execute the code: python "window.py"
+
+## :dart: Status do projeto/ Project Status
+O projeto está finalizado.
+
+The project is done.   
