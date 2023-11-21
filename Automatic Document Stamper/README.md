@@ -24,11 +24,11 @@ To number the pages, the user just needs to fill in the "initial page for number
 The user interface (GUI) (window.png) was developed using Proxlight Designer, creating a project from which a set of images (contained in the GUI images directory) and a .py file are generated using Figma (a development interface based on the Tkinter module).
 
 ## ⚓: Dependências/ Dependencies
-Este código foi desenvolvido utilizando o Jupyter 6.4.12 e o Python versão 3.9.13. Além disso, o código possui as seguintes dependências: 
+Este código foi desenvolvido utilizando o Jupyter 6.4.12 e o Python versão 3.9.11. Além disso, o código possui as seguintes dependências: 
 * Flask-Bcrypt==1.0.1; e
 * pyodbc==4.0.34
 
-This code was developed using PyCharm 6.4.12 e o Python version 3.9.13. Additionally, the code has the following dependencies:
+This code was developed using PyCharm 6.4.12 e o Python version 3.9.11. Additionally, the code has the following dependencies:
 * Flask-Bcrypt==1.0.1; e
 * pyodbc==4.0.34
 
