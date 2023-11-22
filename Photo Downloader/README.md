@@ -15,7 +15,7 @@ Este código foi desenvolvido utilizando o Jupyter Notebook versão 6.5.4 e o Py
 * bs4==0.0.1; e
 * O código depende também de um arquivo .py auxiliar contendo as credenciais do usuário para acesso ao site.
 
-O Chromedriver pode ser baixado de https://chromedriver.chromium.org/downloads/version-selection
+O Chromedriver pode ser baixado de https://chromedriver.chromium.org/downloads/version-selection. O arquivo Chromedriver.exe deve ser inserido no mesmo diretórioa do executável do Python (python.exe).
 
 O arquivo do `webdriver.exe` deve ser colocado em um diretório que esteja no PATH do sistema operacional. Isso permitirá que o Python encontre o arquivo corretamente ao executar o código. Você pode colocar o `webdriver.exe` em um diretório como `C:\Windows` ou adicionar o diretório onde o arquivo está localizado ao PATH do sistema. Dessa forma, o Python conseguirá encontrá-lo durante a execução do código.
 
