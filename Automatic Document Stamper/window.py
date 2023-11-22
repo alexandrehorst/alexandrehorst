@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[37]:
+# In[5]:
 
 
 from tkinter import *
@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Union, Literal, List
 from PyPDF2 import PdfWriter, PdfReader, PdfMerger
 import glob, os, fitz
+import sys
 
 
 def btn_clicked():
@@ -113,6 +114,14 @@ def carimbar():
     else:
         entry2.insert(END,'Operação não realizada. É necessário selecionar um diretório!')
         entry2.update()
+
+
+# Salva a saída padrão e a saída de erro em arquivos
+original_stdout = sys.stdout
+original_stderr = sys.stderr
+sys.stdout = open('output.txt', 'w')
+sys.stderr = open('error.txt', 'w')
+
     
 window = Tk()
 window.title("Carimbador Automático de Documentos")
@@ -166,17 +175,23 @@ entry2.place(x = 37, y = 345, width = 500, height = 30)
 window.resizable(False, False)
 window.mainloop()
 
-
-# In[39]:
-
-
-get_ipython().system('python --version')
-
-
-# In[40]:
+# Restaura a saída padrão e a saída de erro
+sys.stdout.close()
+sys.stderr.close()
+sys.stdout = original_stdout
+sys.stderr = original_stderr
 
 
-get_ipython().system('jupyter notebook --version')
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[1]:
 
 
 from pathlib import Path
@@ -91,12 +91,12 @@ def numerar_paginas(pdf_path, nr_inicial):
     pdf.save('Arquivo_pronto.pdf')
     pdf.close()
 
- 
-carimbo = 'C:\\Users\\horstmann\\Downloads\\carimbador_automático\\CARIMBO.pdf'
+''' 
+#carimbo = 'C:\\Users\\horstmann\\Downloads\\carimbador_automático\\CARIMBO.pdf'
 #carimbo = 'C:\\Users\\Alexandre\\Dropbox\\Cursos\\Python\\Aplicações\\carimbador_automático\\CARIMBO.pdf'
 
 # Diretório para buscar os arquivos pdf
-diretorio = 'C:\\Users\\horstmann\\Downloads\\carimbador_automático\\arquivos_pdf'
+#diretorio = 'C:\\Users\\horstmann\\Downloads\\carimbador_automático\\arquivos_pdf'
 #diretorio = 'C:\\Users\\Alexandre\\Dropbox\\Cursos\\Python\\Aplicações\\carimbador_automático\\arquivos_pdf'
 
 # Obtem lista de todos os arquivos pdf no diretório
@@ -126,7 +126,7 @@ except FileNotFoundError:
 except PermissionError:
     print("Você não possui permissão para deletar este arquivo.")
 
-print('Arquivo pronto!')
+print('Arquivo pronto!')'''
 
 
 # In[ ]:
