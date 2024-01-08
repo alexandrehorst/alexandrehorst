@@ -2,7 +2,9 @@ import tkinter as tk  # importa todo módulo Tkinter
 from tkinter.filedialog import askopenfilename
 from conversor_pdf_excel import *
 from PIL import Image, ImageTk
+from conversor_pdf_excel_rel_mat_perm import *
 
+print(tk.TkVersion)
 
 caminho_arquivo = ''
 
@@ -26,7 +28,10 @@ def selecionar_arquivo():
 def converter_arquivo(caminho_arquivo_pdf):
     global caminho_arquivo
     if caminho_arquivo:
-        conversao(caminho_arquivo_pdf=caminho_arquivo)
+        try:
+            conversao(caminho_arquivo_pdf=caminho_arquivo)
+        except:
+            conversao_rel_mat_perm(nome_arquivo=caminho_arquivo)
         msg_arquivo_atualizado['text'] = 'Arquivo em excel gerado com sucesso!'
     else:
         msg_arquivo_atualizado['text'] = 'Nenhum arquivo selecionado!'
@@ -41,9 +46,9 @@ def abrir_janela_sobre():
 
     # Adiciona texto à caixa de texto
     texto = """
-    Versão 1.0
-    Este programa criado exclusivamente para transformar o relatório de inventário gerado pelo SISCOFIS
-    e não foi testado para outros arquivos em PDF.
+    Versão 2.0
+    Este programa criado exclusivamente para transformar o relatório de INVENTÁRIO DE ALMOXARIFADO POR DEPÓSITO e o 
+    relatório de material permanente ambos gerados pelo SISCOFIS e não foi testado para outros arquivos em PDF.
     Para converter o arquivo PDF para excel siga os seguintes passos:
     1- Selecione o arquivo em formato  excel desejado (será mostrado o diretório contendo o mesmo).
     2- Clique em "Converter arquivo".
