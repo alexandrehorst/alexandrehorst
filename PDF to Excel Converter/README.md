@@ -51,7 +51,7 @@ This code was developed using PyCharm 2022.3.2 e o Python version 3.9.13. Additi
 * tabula-py==2.9.0; e
 * pillow==10.0.0.
 
-Furthermore, there is also a need for the Java file "tabula-1.0.5-jar-with-dependencies."
+If an executable file is created, there is also a need for the java file tabula-1.0.5-jar-with-dependencies. The file banner_logo.png should be placed in the same directory as the executable.
 
 ## :books: Funcionalidades/ Features
 * Converte uma planilha com formato definido em PDF para uma planilha em excel. Além disso, realiza cálculos adicionais para controle de estoque.
